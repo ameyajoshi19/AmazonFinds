@@ -39,14 +39,25 @@ export default function ProductCard({ product, rank }: ProductCardProps) {
               <Play className="w-3.5 h-3.5 fill-white" />
             </button>
           )}
-          <Image
-            src={imgError ? `https://placehold.co/400x400/1f2937/f59e0b?text=${encodeURIComponent(product.name.slice(0, 20))}` : product.imageUrl}
-            alt={product.name}
-            fill
-            className="object-cover group-hover:scale-105 transition-transform duration-500"
-            onError={() => setImgError(true)}
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          />
+          {imgError ? (
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-800 p-4">
+              <div className="w-12 h-12 mb-3 rounded-xl bg-amber-500/20 flex items-center justify-center">
+                <span className="text-amber-400 text-xl">★</span>
+              </div>
+              <p className="text-gray-400 text-xs text-center line-clamp-3 leading-relaxed">
+                {product.name}
+              </p>
+            </div>
+          ) : (
+            <Image
+              src={product.imageUrl}
+              alt={product.name}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-500"
+              onError={() => setImgError(true)}
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+          )}
         </div>
 
         {/* Content */}
