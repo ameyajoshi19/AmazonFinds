@@ -7,14 +7,17 @@
       "featured": true,
       "name": "Apple AirPods Pro 2nd Generation",
       "description": "The AirPods Pro feature industry-leading Active Noise Cancellation, Transparency mode, and Adaptive Audio that automatically tunes to your environment. Personalized Spatial Audio creates an immersive 3D sound experience. Up to 30 hours total battery life with the MagSafe charging case.",
-      "whyTopFind": "The best true wireless earbuds available—seamlessly integrated with the Apple ecosystem and genuinely impressive noise cancellation.",
-      "price": 249.00,
+      "whyTopFind": "The best true wireless earbuds available\u2014seamlessly integrated with the Apple ecosystem and genuinely impressive noise cancellation.",
+      "price": 249.0,
       "rating": 4.8,
       "reviewCount": 120000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=AirPods+Pro",
-      "affiliateUrl": "https://www.amazon.com/s?k=apple+airpods+pro+2nd+generation&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0CHWRXH8B?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "splurge-worthy-002",
@@ -23,14 +26,17 @@
       "featured": false,
       "name": "Dyson V15 Detect Cordless Vacuum",
       "description": "The most powerful Dyson cordless vacuum uses a laser to reveal microscopic dust invisible to the naked eye. The intelligent suction automatically adjusts based on the surface being cleaned. Up to 60 minutes of fade-free suction and a whole-machine HEPA filtration system.",
-      "whyTopFind": "A revelation in home cleaning—once you see dust revealed by the laser, you can never go back.",
+      "whyTopFind": "A revelation in home cleaning\u2014once you see dust revealed by the laser, you can never go back.",
       "price": 649.99,
       "rating": 4.7,
       "reviewCount": 32000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Dyson+Vacuum",
-      "affiliateUrl": "https://www.amazon.com/s?k=dyson+v15+detect+cordless&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0C2J8KJH9?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "splurge-worthy-003",
@@ -39,14 +45,16 @@
       "featured": false,
       "name": "Vitamix 5200 Blender Professional Grade",
       "description": "The legendary Vitamix 5200 blender is powerful enough to blend even the toughest ingredients into silky-smooth results. Variable speed control and 64oz container handle everything from smoothies to hot soups. Built to last decades with a 7-year full warranty.",
-      "whyTopFind": "The last blender you'll ever buy—professional chefs and home cooks agree it's unmatched in power and durability.",
+      "whyTopFind": "The last blender you'll ever buy\u2014professional chefs and home cooks agree it's unmatched in power and durability.",
       "price": 449.95,
       "rating": 4.8,
       "reviewCount": 45000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Vitamix",
-      "affiliateUrl": "https://www.amazon.com/s?k=vitamix+5200+blender&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B008H4SLV6?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "splurge-worthy-004",
@@ -54,15 +62,17 @@
       "rank": 4,
       "featured": false,
       "name": "Breville Barista Express Espresso Machine",
-      "description": "All-in-one espresso machine with integrated conical burr grinder grinds fresh beans directly into the portafilter for café-quality espresso at home. Precise temperature control and manual microfoam milk texturing give full control over every cup. Stainless steel construction with professional looks.",
-      "whyTopFind": "The coffee investment that pays for itself in weeks versus daily café visits—produces genuinely exceptional espresso.",
-      "price": 699.95,
+      "description": "All-in-one espresso machine with integrated conical burr grinder grinds fresh beans directly into the portafilter for caf\u00e9-quality espresso at home. Precise temperature control and manual microfoam milk texturing give full control over every cup. Stainless steel construction with professional looks.",
+      "whyTopFind": "The coffee investment that pays for itself in weeks versus daily caf\u00e9 visits\u2014produces genuinely exceptional espresso.",
+      "price": 549.98,
       "rating": 4.7,
       "reviewCount": 28000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Espresso+Machine",
-      "affiliateUrl": "https://www.amazon.com/s?k=breville+barista+express+espresso&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B00CH9QWOU?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "splurge-worthy-005",
@@ -71,14 +81,17 @@
       "featured": false,
       "name": "Sony WH-1000XM5 Wireless Headphones",
       "description": "Sony's flagship noise-canceling headphones offer best-in-class noise cancellation and 30-hour battery life. The newly designed drivers deliver exceptional audio quality across the full frequency range. Eight microphones and Auto NC Optimizer provide clear call quality in any environment.",
-      "whyTopFind": "The absolute pinnacle of over-ear headphones—unmatched noise cancellation makes commutes and work sessions transformatively peaceful.",
-      "price": 399.99,
+      "whyTopFind": "The absolute pinnacle of over-ear headphones\u2014unmatched noise cancellation makes commutes and work sessions transformatively peaceful.",
+      "price": 278.0,
       "rating": 4.7,
       "reviewCount": 55000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Sony+Headphones",
-      "affiliateUrl": "https://www.amazon.com/s?k=sony+wh-1000xm5+wireless+headphones&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B09XS7JWHH?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "splurge-worthy-006",
@@ -88,13 +101,15 @@
       "name": "Le Creuset Signature Cast Iron Dutch Oven 5.5qt",
       "description": "The iconic Le Creuset enameled cast iron Dutch oven is perfect for braising, baking, roasting, and slow cooking. The superior heat distribution and retention produces exceptional results every time. Virtually indestructible with proper care and backed by a lifetime warranty.",
       "whyTopFind": "A culinary heirloom that outlasts everything else in the kitchen and gets better with every use.",
-      "price": 399.95,
+      "price": 379.95,
       "rating": 4.9,
       "reviewCount": 18000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Le+Creuset",
-      "affiliateUrl": "https://www.amazon.com/s?k=le+creuset+dutch+oven+5.5qt&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B00VA5HG0Q?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "splurge-worthy-007",
@@ -103,14 +118,16 @@
       "featured": false,
       "name": "Theragun Pro Percussive Therapy Device",
       "description": "Professional-grade percussive therapy device used by elite athletes and physical therapists features 6 adjustable attachments and 5 built-in speeds. The OLED screen and Bluetooth app provide guided routines. Ergonomic multi-grip design reaches all muscle groups with or without assistance.",
-      "whyTopFind": "The recovery tool that serious athletes swear by—dramatically reduces muscle soreness and speeds up recovery.",
-      "price": 549.00,
+      "whyTopFind": "The recovery tool that serious athletes swear by\u2014dramatically reduces muscle soreness and speeds up recovery.",
+      "price": 349.99,
       "rating": 4.6,
       "reviewCount": 22000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Theragun",
-      "affiliateUrl": "https://www.amazon.com/s?k=theragun+pro+percussive+therapy&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0B6RL7NQJ?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "splurge-worthy-008",
@@ -119,14 +136,16 @@
       "featured": false,
       "name": "Tempur-Pedic TEMPUR-Adapt Pillow Queen",
       "description": "The TEMPUR-Adapt pillow uses proprietary TEMPUR material that conforms to your head and neck for personalized support. Cooling cover wicks away heat for a comfortable night's sleep. Medium height and firm feel suit back and side sleepers.",
-      "whyTopFind": "Sleep quality transforms when your pillow provides proper support—this is the pillow upgrade most people never knew they needed.",
-      "price": 189.00,
+      "whyTopFind": "Sleep quality transforms when your pillow provides proper support\u2014this is the pillow upgrade most people never knew they needed.",
+      "price": 189.0,
       "rating": 4.5,
       "reviewCount": 14000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Tempur+Pillow",
       "affiliateUrl": "https://www.amazon.com/s?k=tempur-pedic+adapt+pillow+queen&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "splurge-worthy-009",
@@ -136,13 +155,15 @@
       "name": "Bose Smart Soundbar 900",
       "description": "The Bose Smart Soundbar 900 delivers Dolby Atmos audio with a wide, immersive soundstage from a single, elegant bar. Built-in voice assistants, AirPlay 2, and Spotify Connect provide wireless music streaming. Adaptive Audio Mode automatically optimizes sound based on what you're watching.",
       "whyTopFind": "Transforms any TV into a true home cinema experience with sound that genuinely fills the room.",
-      "price": 899.00,
+      "price": 899.95,
       "rating": 4.7,
       "reviewCount": 11000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Bose+Soundbar",
-      "affiliateUrl": "https://www.amazon.com/s?k=bose+smart+soundbar+900&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B094YN85V2?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "splurge-worthy-010",
@@ -151,14 +172,17 @@
       "featured": false,
       "name": "KitchenAid Artisan Stand Mixer 5qt",
       "description": "The iconic KitchenAid stand mixer with 10 speeds handles everything from delicate meringue to stiff bread dough. The 5-quart stainless steel bowl and planetary mixing action ensure thorough ingredient incorporation. Over 10 optional attachments transform it into a full food preparation system.",
-      "whyTopFind": "The kitchen appliance that changes everything for bakers—a purchase people describe as life-changing.",
+      "whyTopFind": "The kitchen appliance that changes everything for bakers\u2014a purchase people describe as life-changing.",
       "price": 449.99,
       "rating": 4.8,
       "reviewCount": 62000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=KitchenAid+Mixer",
-      "affiliateUrl": "https://www.amazon.com/s?k=kitchenaid+artisan+stand+mixer+5qt&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B00005UP2P?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     }
   ]
 }

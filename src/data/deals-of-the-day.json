@@ -6,15 +6,19 @@
       "rank": 1,
       "featured": true,
       "name": "Instant Pot Duo 7-in-1 Electric Pressure Cooker 6qt",
-      "description": "The best-selling Instant Pot combines a pressure cooker, slow cooker, rice cooker, steamer, sauté pan, yogurt maker, and warmer in one appliance. Cooks up to 70% faster than conventional cooking methods. Comes with stainless steel inner pot and dishwasher-safe accessories.",
-      "whyTopFind": "An incredible value that saves time on weeknight dinners—this is why millions of households have an Instant Pot.",
-      "price": 59.95,
+      "description": "The best-selling Instant Pot combines a pressure cooker, slow cooker, rice cooker, steamer, saut\u00e9 pan, yogurt maker, and warmer in one appliance. Cooks up to 70% faster than conventional cooking methods. Comes with stainless steel inner pot and dishwasher-safe accessories.",
+      "whyTopFind": "An incredible value that saves time on weeknight dinners\u2014this is why millions of households have an Instant Pot.",
+      "price": 109.99,
       "rating": 4.7,
       "reviewCount": 150000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Instant+Pot",
-      "affiliateUrl": "https://www.amazon.com/s?k=instant+pot+duo+7+in+1+6qt&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B00FLYWNYQ?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal", "bestseller"]
+      "tags": [
+        "prime",
+        "deal",
+        "bestseller"
+      ]
     },
     {
       "id": "deals-of-the-day-002",
@@ -23,14 +27,18 @@
       "featured": false,
       "name": "Fire TV Stick 4K with Alexa Voice Remote",
       "description": "Stream your favorite content in 4K Ultra HD, HDR10+, Dolby Vision, and Dolby Atmos with this powerful streaming stick. Access 1 million+ movies and TV episodes from popular streaming services. The Alexa Voice Remote lets you control your TV with your voice.",
-      "whyTopFind": "The best value streaming device on the market—turns any TV into a smart TV at a fraction of the cost.",
+      "whyTopFind": "The best value streaming device on the market\u2014turns any TV into a smart TV at a fraction of the cost.",
       "price": 49.99,
       "rating": 4.6,
       "reviewCount": 200000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Fire+TV+Stick",
-      "affiliateUrl": "https://www.amazon.com/s?k=fire+tv+stick+4k+alexa+remote&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0CJM1GNFQ?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal", "bestseller"]
+      "tags": [
+        "prime",
+        "deal",
+        "bestseller"
+      ]
     },
     {
       "id": "deals-of-the-day-003",
@@ -39,14 +47,18 @@
       "featured": false,
       "name": "Echo Dot 5th Gen Smart Speaker",
       "description": "The latest Echo Dot delivers improved bass response and clearer vocals for richer sound. Built-in Eero Wi-Fi extends mesh network coverage throughout your home. Use your voice to play music, check the weather, control smart home devices, and much more.",
-      "whyTopFind": "The most popular smart speaker in the world at an unbeatable price—Alexa makes everyday tasks effortless.",
+      "whyTopFind": "The most popular smart speaker in the world at an unbeatable price\u2014Alexa makes everyday tasks effortless.",
       "price": 49.99,
       "rating": 4.7,
       "reviewCount": 180000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Echo+Dot",
-      "affiliateUrl": "https://www.amazon.com/s?k=echo+dot+5th+generation&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B09B8V1LZ3?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal", "bestseller"]
+      "tags": [
+        "prime",
+        "deal",
+        "bestseller"
+      ]
     },
     {
       "id": "deals-of-the-day-004",
@@ -54,15 +66,18 @@
       "rank": 4,
       "featured": false,
       "name": "Blink Outdoor 4 Security Camera 3-Pack",
-      "description": "Wire-free weather-resistant security cameras with 2-year battery life monitor your home day and night in 1080p HD. Motion-activated alerts send notifications to your smartphone with a live view. Easy DIY setup takes minutes—no professional installation needed.",
+      "description": "Wire-free weather-resistant security cameras with 2-year battery life monitor your home day and night in 1080p HD. Motion-activated alerts send notifications to your smartphone with a live view. Easy DIY setup takes minutes\u2014no professional installation needed.",
       "whyTopFind": "Whole-home security at a price that makes protecting your property accessible for everyone.",
-      "price": 119.99,
+      "price": 99.99,
       "rating": 4.4,
       "reviewCount": 65000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Blink+Cameras",
-      "affiliateUrl": "https://www.amazon.com/s?k=blink+outdoor+4+camera+3+pack&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0B1N5FK48?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal"]
+      "tags": [
+        "prime",
+        "deal"
+      ]
     },
     {
       "id": "deals-of-the-day-005",
@@ -70,15 +85,19 @@
       "rank": 5,
       "featured": false,
       "name": "Anker 65W USB-C Fast Charger 3-Port",
-      "description": "Compact GaN charger delivers 65W total output across three ports—two USB-C and one USB-A—to charge a laptop, phone, and tablet simultaneously. Much smaller than traditional laptop chargers with the same output. Intelligent power distribution optimizes charging speed.",
-      "whyTopFind": "Replace three chargers with one tiny adapter—an essential upgrade for anyone with multiple devices.",
-      "price": 35.99,
+      "description": "Compact GaN charger delivers 65W total output across three ports\u2014two USB-C and one USB-A\u2014to charge a laptop, phone, and tablet simultaneously. Much smaller than traditional laptop chargers with the same output. Intelligent power distribution optimizes charging speed.",
+      "whyTopFind": "Replace three chargers with one tiny adapter\u2014an essential upgrade for anyone with multiple devices.",
+      "price": 45.99,
       "rating": 4.7,
       "reviewCount": 48000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Anker+Charger",
-      "affiliateUrl": "https://www.amazon.com/s?k=anker+65w+usb+c+charger+3+port&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B09W2JP6SM?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal", "bestseller"]
+      "tags": [
+        "prime",
+        "deal",
+        "bestseller"
+      ]
     },
     {
       "id": "deals-of-the-day-006",
@@ -86,15 +105,19 @@
       "rank": 6,
       "featured": false,
       "name": "Ninja Air Fryer Pro 4qt",
-      "description": "Air fry, roast, reheat, and dehydrate with up to 75% less fat than traditional frying methods. The wide 4-quart ceramic-coated basket holds a full family meal and is dishwasher safe. Programmable 4-in-1 functions and 400°F max temperature deliver crispy results every time.",
-      "whyTopFind": "The air fryer that finally makes healthy eating effortless—everything comes out crispy and delicious.",
-      "price": 99.99,
+      "description": "Air fry, roast, reheat, and dehydrate with up to 75% less fat than traditional frying methods. The wide 4-quart ceramic-coated basket holds a full family meal and is dishwasher safe. Programmable 4-in-1 functions and 400\u00b0F max temperature deliver crispy results every time.",
+      "whyTopFind": "The air fryer that finally makes healthy eating effortless\u2014everything comes out crispy and delicious.",
+      "price": 119.99,
       "rating": 4.7,
       "reviewCount": 95000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Air+Fryer",
-      "affiliateUrl": "https://www.amazon.com/s?k=ninja+air+fryer+pro+4qt&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0CSZ7WBYW?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal", "bestseller"]
+      "tags": [
+        "prime",
+        "deal",
+        "bestseller"
+      ]
     },
     {
       "id": "deals-of-the-day-007",
@@ -103,14 +126,17 @@
       "featured": false,
       "name": "iRobot Roomba 694 Robot Vacuum",
       "description": "This smart robot vacuum learns your home's cleaning needs and suggests personalized schedules based on your lifestyle. Compatible with Alexa and Google for voice-activated cleaning. Auto-adjust cleaning head transitions from hard floors to carpet automatically.",
-      "whyTopFind": "Cleans your floors daily while you do literally anything else—the time it saves adds up quickly.",
-      "price": 179.99,
+      "whyTopFind": "Cleans your floors daily while you do literally anything else\u2014the time it saves adds up quickly.",
+      "price": 179.0,
       "rating": 4.4,
       "reviewCount": 72000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Roomba",
-      "affiliateUrl": "https://www.amazon.com/s?k=irobot+roomba+694+robot+vacuum&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B08SP5GYJP?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal"]
+      "tags": [
+        "prime",
+        "deal"
+      ]
     },
     {
       "id": "deals-of-the-day-008",
@@ -119,14 +145,17 @@
       "featured": false,
       "name": "Govee Smart LED Floor Lamp",
       "description": "App-controlled floor lamp offers 16 million colors, dynamic scenes, and music sync mode that pulses to your music. Works with Alexa and Google Home for voice control. Adjustable neck positions the light exactly where you need it.",
-      "whyTopFind": "Transforms the ambiance of any room for less than a restaurant dinner—endlessly customizable mood lighting.",
-      "price": 69.99,
+      "whyTopFind": "Transforms the ambiance of any room for less than a restaurant dinner\u2014endlessly customizable mood lighting.",
+      "price": 64.98,
       "rating": 4.5,
       "reviewCount": 28000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=LED+Floor+Lamp",
-      "affiliateUrl": "https://www.amazon.com/s?k=govee+smart+led+floor+lamp&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B099WTN2TR?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal"]
+      "tags": [
+        "prime",
+        "deal"
+      ]
     },
     {
       "id": "deals-of-the-day-009",
@@ -135,14 +164,17 @@
       "featured": false,
       "name": "Cuisinart 12-Piece Knife Set with Block",
       "description": "Professional-grade stainless steel knife set includes chef's, bread, slicing, santoku, utility, and paring knives plus kitchen shears and a sharpener. High-carbon stainless steel blades hold a sharp edge longer. Elegant hardwood block keeps knives organized and within reach.",
-      "whyTopFind": "A complete kitchen knife collection at a fraction of luxury brand prices—sharp, balanced, and built to last.",
+      "whyTopFind": "A complete kitchen knife collection at a fraction of luxury brand prices\u2014sharp, balanced, and built to last.",
       "price": 89.99,
       "rating": 4.6,
       "reviewCount": 38000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Knife+Set",
       "affiliateUrl": "https://www.amazon.com/s?k=cuisinart+12+piece+knife+set+block&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal"]
+      "tags": [
+        "prime",
+        "deal"
+      ]
     },
     {
       "id": "deals-of-the-day-010",
@@ -158,7 +190,11 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Tile+Tracker",
       "affiliateUrl": "https://www.amazon.com/s?k=tile+mate+bluetooth+tracker+4+pack&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "deal", "bestseller"]
+      "tags": [
+        "prime",
+        "deal",
+        "bestseller"
+      ]
     }
   ]
 }

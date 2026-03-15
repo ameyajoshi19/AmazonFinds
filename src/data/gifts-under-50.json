@@ -8,13 +8,16 @@
       "name": "Ember Temperature Control Smart Mug 10oz",
       "description": "This smart mug keeps your coffee or tea at your perfect temperature for up to 1.5 hours. The companion app lets you set your ideal temperature and get notified when your drink is ready. Elegant design fits any kitchen or office.",
       "whyTopFind": "A genuinely innovative gift for coffee lovers that solves the age-old problem of drinks going cold.",
-      "price": 44.95,
+      "price": 99.95,
       "rating": 4.6,
       "reviewCount": 35000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Smart+Mug",
-      "affiliateUrl": "https://www.amazon.com/s?k=ember+temperature+control+mug&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B07NQRM6ML?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "gifts-under-50-002",
@@ -23,14 +26,16 @@
       "featured": false,
       "name": "Wireless Charging Pad with Nightlight",
       "description": "Fast wireless charger compatible with all Qi-enabled devices features a soft ambient nightlight with adjustable brightness. Sleek flat design charges through most phone cases. Includes USB-C cable and adapter.",
-      "whyTopFind": "Two useful functions in one elegant device—perfect for a nightstand or desk setup.",
+      "whyTopFind": "Two useful functions in one elegant device\u2014perfect for a nightstand or desk setup.",
       "price": 29.99,
       "rating": 4.5,
       "reviewCount": 18000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Wireless+Charger",
       "affiliateUrl": "https://www.amazon.com/s?k=wireless+charging+pad+nightlight&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "gifts-under-50-003",
@@ -46,7 +51,10 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Satin+Pillowcase",
       "affiliateUrl": "https://www.amazon.com/s?k=satin+pillowcase+set+queen&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "gifts-under-50-004",
@@ -62,7 +70,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Spice+Grinder",
       "affiliateUrl": "https://www.amazon.com/s?k=stainless+steel+herb+spice+grinder&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "gifts-under-50-005",
@@ -71,14 +81,17 @@
       "featured": false,
       "name": "Portable Handheld Massager with Heat",
       "description": "Cordless deep tissue massager with 20 speed settings and optional heat function targets sore muscles and tension. The ergonomic handle makes it easy to reach your back, shoulders, and legs. Rechargeable with 3-hour battery life.",
-      "whyTopFind": "Professional-quality muscle relief at home—an indulgent gift that people use every single day.",
+      "whyTopFind": "Professional-quality muscle relief at home\u2014an indulgent gift that people use every single day.",
       "price": 39.99,
       "rating": 4.5,
       "reviewCount": 20000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Massager",
       "affiliateUrl": "https://www.amazon.com/s?k=portable+handheld+massager+heat&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "giftable"]
+      "tags": [
+        "prime",
+        "giftable"
+      ]
     },
     {
       "id": "gifts-under-50-006",
@@ -94,7 +107,10 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Cutting+Board",
       "affiliateUrl": "https://www.amazon.com/s?k=bamboo+cutting+board+juice+groove&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "giftable"]
+      "tags": [
+        "prime",
+        "giftable"
+      ]
     },
     {
       "id": "gifts-under-50-007",
@@ -110,7 +126,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Weighted+Eye+Mask",
       "affiliateUrl": "https://www.amazon.com/s?k=weighted+eye+mask+cooling&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "gifts-under-50-008",
@@ -119,14 +137,17 @@
       "featured": false,
       "name": "Cocktail Making Kit with Recipes",
       "description": "Complete home bartending kit includes a stainless steel shaker, muddler, strainer, jigger, bar spoon, and recipe booklet with 30 cocktail recipes. Comes in a beautiful gift box. Makes 2 cocktails at a time.",
-      "whyTopFind": "Everything needed to start crafting professional-quality cocktails at home—a fun gift for entertaining.",
+      "whyTopFind": "Everything needed to start crafting professional-quality cocktails at home\u2014a fun gift for entertaining.",
       "price": 44.99,
       "rating": 4.5,
       "reviewCount": 8500,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Cocktail+Kit",
       "affiliateUrl": "https://www.amazon.com/s?k=cocktail+making+kit+recipes&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "giftable"]
+      "tags": [
+        "prime",
+        "giftable"
+      ]
     },
     {
       "id": "gifts-under-50-009",
@@ -142,7 +163,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Desk+Pad",
       "affiliateUrl": "https://www.amazon.com/s?k=faux+leather+desk+pad+wireless+charging&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "gifts-under-50-010",
@@ -158,7 +181,10 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Book+Light",
       "affiliateUrl": "https://www.amazon.com/s?k=rechargeable+led+book+light+clip&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     }
   ]
 }

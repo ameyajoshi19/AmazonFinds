@@ -7,14 +7,17 @@
       "featured": true,
       "name": "CeraVe Moisturizing Cream 19oz",
       "description": "Dermatologist-developed moisturizer with ceramides and hyaluronic acid restores the skin's protective barrier and provides 24-hour hydration. The fragrance-free, non-comedogenic formula is gentle enough for sensitive skin and all skin types. Works for face and body.",
-      "whyTopFind": "The most-recommended moisturizer by dermatologists—delivers professional-level skin barrier repair at drugstore pricing.",
+      "whyTopFind": "The most-recommended moisturizer by dermatologists\u2014delivers professional-level skin barrier repair at drugstore pricing.",
       "price": 18.99,
       "rating": 4.8,
       "reviewCount": 280000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=CeraVe+Cream",
       "affiliateUrl": "https://www.amazon.com/s?k=cerave+moisturizing+cream+19oz&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "skincare-002",
@@ -23,14 +26,17 @@
       "featured": false,
       "name": "The Ordinary Niacinamide 10% + Zinc 1% Serum",
       "description": "This high-strength niacinamide serum visibly reduces pore appearance, controls excess sebum production, and evens skin tone. Zinc PCA complements niacinamide for balanced oil control. Suitable for all skin types and can be layered with other serums.",
-      "whyTopFind": "Dermatologist-approved active ingredients at an accessible price point—visible pore and texture improvement in weeks.",
-      "price": 8.90,
+      "whyTopFind": "Dermatologist-approved active ingredients at an accessible price point\u2014visible pore and texture improvement in weeks.",
+      "price": 8.9,
       "rating": 4.5,
       "reviewCount": 180000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Niacinamide+Serum",
       "affiliateUrl": "https://www.amazon.com/s?k=the+ordinary+niacinamide+10+zinc+serum&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "skincare-003",
@@ -39,14 +45,17 @@
       "featured": false,
       "name": "EltaMD UV Clear SPF 46 Face Sunscreen",
       "description": "Lightweight, oil-free mineral sunscreen is the top choice for acne-prone and sensitive skin. Contains niacinamide to calm and brighten skin while providing broad-spectrum UVA/UVB protection. Goes on clear without white cast and works as a perfect makeup primer.",
-      "whyTopFind": "The sunscreen that skincare enthusiasts evangelized—genuinely doesn't break out even the most reactive skin.",
-      "price": 39.00,
+      "whyTopFind": "The sunscreen that skincare enthusiasts evangelized\u2014genuinely doesn't break out even the most reactive skin.",
+      "price": 45.0,
       "rating": 4.7,
       "reviewCount": 85000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=EltaMD+SPF",
-      "affiliateUrl": "https://www.amazon.com/s?k=eltamd+uv+clear+spf+46+face+sunscreen&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B002MSN3QQ?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "skincare-004",
@@ -55,14 +64,17 @@
       "featured": false,
       "name": "Retinol Serum 2.5% with Hyaluronic Acid",
       "description": "Clinically effective retinol concentration smooths fine lines, improves skin texture, and promotes cell turnover for brighter skin. Combined with hyaluronic acid to counteract retinol's potential drying effects. Lightweight serum absorbs quickly with no greasy residue.",
-      "whyTopFind": "Retinol is the gold standard anti-aging ingredient—this formula delivers results without the irritation of prescription-strength products.",
+      "whyTopFind": "Retinol is the gold standard anti-aging ingredient\u2014this formula delivers results without the irritation of prescription-strength products.",
       "price": 19.99,
       "rating": 4.5,
       "reviewCount": 95000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Retinol+Serum",
       "affiliateUrl": "https://www.amazon.com/s?k=retinol+serum+2.5+hyaluronic+acid&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "skincare-005",
@@ -71,14 +83,17 @@
       "featured": false,
       "name": "Gua Sha Face Tool Rose Quartz",
       "description": "Traditional Chinese facial massage tool made from genuine rose quartz helps reduce puffiness, stimulate lymphatic drainage, and improve circulation for a natural face lift effect. The dual-ended design contours multiple facial areas. Comes in a silk pouch with technique guide.",
-      "whyTopFind": "A simple daily ritual that genuinely reduces morning puffiness and improves skin tone over time—beloved by beauty editors.",
+      "whyTopFind": "A simple daily ritual that genuinely reduces morning puffiness and improves skin tone over time\u2014beloved by beauty editors.",
       "price": 24.99,
       "rating": 4.6,
       "reviewCount": 32000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Gua+Sha",
       "affiliateUrl": "https://www.amazon.com/s?k=gua+sha+face+tool+rose+quartz&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "giftable"]
+      "tags": [
+        "prime",
+        "giftable"
+      ]
     },
     {
       "id": "skincare-006",
@@ -94,7 +109,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Vitamin+C+Serum",
       "affiliateUrl": "https://www.amazon.com/s?k=vitamin+c+serum+20+ferulic+acid&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "skincare-007",
@@ -110,7 +127,10 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Jade+Roller",
       "affiliateUrl": "https://www.amazon.com/s?k=jade+roller+gua+sha+set&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "skincare-008",
@@ -126,7 +146,10 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Hydroboost+Gel",
       "affiliateUrl": "https://www.amazon.com/s?k=neutrogena+hydroboost+water+gel+moisturizer&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "skincare-009",
@@ -135,14 +158,16 @@
       "featured": false,
       "name": "LED Red Light Therapy Face Mask",
       "description": "FDA-cleared LED light therapy mask uses red (630nm) and near-infrared (830nm) wavelengths clinically proven to stimulate collagen production, reduce wrinkles, and improve skin texture. 10-minute treatment delivers professional-grade results at home. Comfortable, hands-free design.",
-      "whyTopFind": "Brings professional-level light therapy home for a fraction of the cost of spa treatments—consistent use shows measurable skin improvement.",
+      "whyTopFind": "Brings professional-level light therapy home for a fraction of the cost of spa treatments\u2014consistent use shows measurable skin improvement.",
       "price": 149.99,
       "rating": 4.4,
       "reviewCount": 18000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=LED+Face+Mask",
       "affiliateUrl": "https://www.amazon.com/s?k=led+red+light+therapy+face+mask&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "skincare-010",
@@ -151,14 +176,17 @@
       "featured": false,
       "name": "Paula's Choice BHA Blackhead Exfoliant 2%",
       "description": "Leave-on salicylic acid exfoliant penetrates pores to dissolve blackheads, reduce breakouts, and smooth skin texture from the inside out. The 2% BHA concentration is effective yet gentle enough for daily use. Fragrance-free, paraben-free formula suitable for all skin types.",
-      "whyTopFind": "The BHA serum that transformed the skincare community's approach to blackheads—truly works where scrubs and strips fail.",
-      "price": 34.00,
+      "whyTopFind": "The BHA serum that transformed the skincare community's approach to blackheads\u2014truly works where scrubs and strips fail.",
+      "price": 35.0,
       "rating": 4.6,
       "reviewCount": 72000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=BHA+Exfoliant",
-      "affiliateUrl": "https://www.amazon.com/s?k=paulas+choice+bha+blackhead+exfoliant+2&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B00949CTQQ?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     }
   ]
 }

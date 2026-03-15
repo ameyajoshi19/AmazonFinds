@@ -7,14 +7,17 @@
       "featured": true,
       "name": "Adjustable Dumbbell Set 5-50lb",
       "description": "Space-saving adjustable dumbbells replace an entire rack of weights with a quick-select dial that adjusts from 5 to 50 lbs in 2.5-lb increments. Durable construction and secure locking mechanism keep plates in place during any exercise. Comes with a stand for convenient storage.",
-      "whyTopFind": "The smarter way to build a home gym—replaces 15 pairs of dumbbells in one compact set.",
+      "whyTopFind": "The smarter way to build a home gym\u2014replaces 15 pairs of dumbbells in one compact set.",
       "price": 299.99,
       "rating": 4.7,
       "reviewCount": 45000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Adjustable+Dumbbells",
       "affiliateUrl": "https://www.amazon.com/s?k=adjustable+dumbbell+set+5+50lb&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "fitness-002",
@@ -23,14 +26,16 @@
       "featured": false,
       "name": "Garmin Forerunner 255 GPS Running Watch",
       "description": "Advanced GPS running watch tracks pace, distance, heart rate, VO2 max, and recovery time with impressive accuracy. Multi-band GPS provides precise positioning even in challenging environments. Up to 14 days of battery life in smartwatch mode.",
-      "whyTopFind": "The training data it provides genuinely helps runners improve—worth every penny for serious athletes.",
-      "price": 349.99,
+      "whyTopFind": "The training data it provides genuinely helps runners improve\u2014worth every penny for serious athletes.",
+      "price": 239.99,
       "rating": 4.7,
       "reviewCount": 22000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Garmin+Watch",
-      "affiliateUrl": "https://www.amazon.com/s?k=garmin+forerunner+255+gps+watch&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B09WTP57Z5?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "fitness-003",
@@ -39,14 +44,17 @@
       "featured": false,
       "name": "Resistance Bands Set 5 Levels",
       "description": "Complete set of 5 resistance bands with varying tension levels from light to extra heavy for total body workouts. Made from natural latex with durable fabric covers that won't roll or snap. Includes a carrying bag and exercise guide for over 40 exercises.",
-      "whyTopFind": "A full gym workout in a bag that weighs less than a pound—perfect for home, travel, or office.",
+      "whyTopFind": "A full gym workout in a bag that weighs less than a pound\u2014perfect for home, travel, or office.",
       "price": 29.99,
       "rating": 4.6,
       "reviewCount": 55000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Resistance+Bands",
       "affiliateUrl": "https://www.amazon.com/s?k=resistance+bands+set+5+levels&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "fitness-004",
@@ -55,14 +63,16 @@
       "featured": false,
       "name": "Jump Rope with Ball Bearings",
       "description": "Professional speed jump rope with precision ball bearings for smooth, tangle-free rotation at high speeds. Adjustable PVC rope fits heights from 4'8\" to 6'8\". Perfect for cardio workouts, HIIT training, and boxing conditioning.",
-      "whyTopFind": "The most calorie-efficient cardio tool available—burns more calories per minute than almost any other exercise.",
+      "whyTopFind": "The most calorie-efficient cardio tool available\u2014burns more calories per minute than almost any other exercise.",
       "price": 19.99,
       "rating": 4.5,
       "reviewCount": 38000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Jump+Rope",
       "affiliateUrl": "https://www.amazon.com/s?k=jump+rope+ball+bearings+speed&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "fitness-005",
@@ -71,14 +81,17 @@
       "featured": false,
       "name": "Foam Roller for Muscle Recovery",
       "description": "High-density EVA foam roller with varying surface textures targets deep tissue massage for muscle recovery and myofascial release. The textured grid pattern mimics the fingers of a trained massage therapist. Durable construction supports up to 500 lbs.",
-      "whyTopFind": "Daily foam rolling dramatically reduces muscle soreness and improves flexibility—athletes swear by it.",
+      "whyTopFind": "Daily foam rolling dramatically reduces muscle soreness and improves flexibility\u2014athletes swear by it.",
       "price": 34.99,
       "rating": 4.7,
       "reviewCount": 42000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Foam+Roller",
       "affiliateUrl": "https://www.amazon.com/s?k=foam+roller+muscle+recovery+textured&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "fitness-006",
@@ -94,7 +107,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Pull+Up+Bar",
       "affiliateUrl": "https://www.amazon.com/s?k=doorframe+pull+up+bar+no+screws&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "fitness-007",
@@ -110,7 +125,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Hydration+Pack",
       "affiliateUrl": "https://www.amazon.com/s?k=hydration+backpack+2l+running&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "fitness-008",
@@ -119,14 +136,16 @@
       "featured": false,
       "name": "Ab Roller Wheel with Knee Pad",
       "description": "Double-wheel ab roller provides stability for beginners and intense core training for advanced athletes. Non-slip handles with foam grips reduce hand fatigue. Includes a thick knee pad for comfortable floor exercises.",
-      "whyTopFind": "One of the most effective core exercises available—measurable ab strength gains happen quickly with consistent use.",
+      "whyTopFind": "One of the most effective core exercises available\u2014measurable ab strength gains happen quickly with consistent use.",
       "price": 24.99,
       "rating": 4.5,
       "reviewCount": 50000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Ab+Roller",
       "affiliateUrl": "https://www.amazon.com/s?k=ab+roller+wheel+knee+pad&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "fitness-009",
@@ -142,7 +161,10 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Smart+Scale",
       "affiliateUrl": "https://www.amazon.com/s?k=smart+scale+body+composition+bluetooth&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "fitness-010",
@@ -151,14 +173,16 @@
       "featured": false,
       "name": "Exercise Mat Extra Thick 1/2 Inch",
       "description": "Premium 1/2-inch thick non-slip exercise mat provides superior cushioning for yoga, pilates, stretching, and floor workouts. The textured surface prevents slipping even during hot yoga sessions. Moisture-resistant foam wipes clean easily.",
-      "whyTopFind": "Your joints will thank you—proper cushioning is the difference between loving and dreading floor workouts.",
+      "whyTopFind": "Your joints will thank you\u2014proper cushioning is the difference between loving and dreading floor workouts.",
       "price": 29.99,
       "rating": 4.7,
       "reviewCount": 32000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Exercise+Mat",
       "affiliateUrl": "https://www.amazon.com/s?k=exercise+mat+extra+thick+half+inch&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     }
   ]
 }

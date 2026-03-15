@@ -8,13 +8,16 @@
       "name": "Kindle Paperwhite E-Reader 16GB",
       "description": "The latest Kindle Paperwhite features a high-resolution glare-free display, adjustable warm light, and weeks of battery life. Waterproof design makes it safe for reading by the pool or in the bath. Holds thousands of books in a slim, lightweight device.",
       "whyTopFind": "The gold standard e-reader that turns reluctant readers into book lovers with its exceptional screen and convenience.",
-      "price": 99.99,
+      "price": 159.99,
       "rating": 4.7,
       "reviewCount": 85000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Kindle",
-      "affiliateUrl": "https://www.amazon.com/s?k=kindle+paperwhite+16gb&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0CFPJYX7P?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "gifts-under-100-002",
@@ -23,14 +26,17 @@
       "featured": false,
       "name": "Noise-Canceling Wireless Earbuds",
       "description": "Active noise cancellation blocks background sound while delivering rich, balanced audio. Up to 8 hours of battery life in the earbuds plus 24 more hours from the charging case. IPX4 water resistance and comfortable ear tips for all-day wear.",
-      "whyTopFind": "Premium audio experience at a mid-range price point—a gift anyone who commutes or works from home will treasure.",
+      "whyTopFind": "Premium audio experience at a mid-range price point\u2014a gift anyone who commutes or works from home will treasure.",
       "price": 79.99,
       "rating": 4.6,
       "reviewCount": 42000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Earbuds",
       "affiliateUrl": "https://www.amazon.com/s?k=noise+canceling+wireless+earbuds&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "gifts-under-100-003",
@@ -46,7 +52,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Air+Purifier",
       "affiliateUrl": "https://www.amazon.com/s?k=smart+air+purifier+hepa+large+room&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "gifts-under-100-004",
@@ -54,15 +62,18 @@
       "rank": 4,
       "featured": false,
       "name": "Instax Mini Photo Printer",
-      "description": "Print palm-sized photos directly from your smartphone via Bluetooth with this instant photo printer. No ink required—uses ZINK zero-ink technology for smudge-proof, water-resistant prints. Compatible with iOS and Android.",
-      "whyTopFind": "Brings memories to life instantly—a gift that creates tangible keepsakes from digital photos.",
+      "description": "Print palm-sized photos directly from your smartphone via Bluetooth with this instant photo printer. No ink required\u2014uses ZINK zero-ink technology for smudge-proof, water-resistant prints. Compatible with iOS and Android.",
+      "whyTopFind": "Brings memories to life instantly\u2014a gift that creates tangible keepsakes from digital photos.",
       "price": 69.99,
       "rating": 4.5,
       "reviewCount": 22000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Photo+Printer",
       "affiliateUrl": "https://www.amazon.com/s?k=instax+mini+photo+printer+bluetooth&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "giftable"]
+      "tags": [
+        "prime",
+        "giftable"
+      ]
     },
     {
       "id": "gifts-under-100-005",
@@ -78,7 +89,10 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Electric+Blanket",
       "affiliateUrl": "https://www.amazon.com/s?k=electric+blanket+dual+controls&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "bestseller"]
+      "tags": [
+        "prime",
+        "bestseller"
+      ]
     },
     {
       "id": "gifts-under-100-006",
@@ -87,14 +101,17 @@
       "featured": false,
       "name": "Indoor Herb Garden Starter Kit",
       "description": "Complete hydroponic herb growing system with LED grow lights and everything needed to grow fresh basil, mint, parsley, and more year-round. The self-watering system makes it nearly foolproof. Compact countertop design fits in any kitchen.",
-      "whyTopFind": "A living gift that keeps giving—fresh herbs from your own kitchen garden elevate every meal.",
+      "whyTopFind": "A living gift that keeps giving\u2014fresh herbs from your own kitchen garden elevate every meal.",
       "price": 74.99,
       "rating": 4.6,
       "reviewCount": 17000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Herb+Garden",
       "affiliateUrl": "https://www.amazon.com/s?k=indoor+herb+garden+hydroponic+kit&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "giftable"]
+      "tags": [
+        "prime",
+        "giftable"
+      ]
     },
     {
       "id": "gifts-under-100-007",
@@ -110,7 +127,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Yoga+Mat",
       "affiliateUrl": "https://www.amazon.com/s?k=premium+yoga+mat+non+slip&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "gifts-under-100-008",
@@ -126,7 +145,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=LED+Strip",
       "affiliateUrl": "https://www.amazon.com/s?k=smart+led+strip+lights+wifi+32ft&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     },
     {
       "id": "gifts-under-100-009",
@@ -135,14 +156,17 @@
       "featured": false,
       "name": "Sous Vide Precision Cooker 1000W",
       "description": "Immersion circulator maintains precise water temperatures for perfectly cooked steaks, chicken, and vegetables every time. Connects via Bluetooth to a smartphone app with hundreds of guided recipes. Quiet motor and easy clip attachment fits any pot.",
-      "whyTopFind": "Restaurant-quality cooking made accessible at home—a game-changer for anyone who loves to cook.",
+      "whyTopFind": "Restaurant-quality cooking made accessible at home\u2014a game-changer for anyone who loves to cook.",
       "price": 84.99,
       "rating": 4.6,
       "reviewCount": 24000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Sous+Vide",
       "affiliateUrl": "https://www.amazon.com/s?k=sous+vide+precision+cooker+1000w&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "giftable"]
+      "tags": [
+        "prime",
+        "giftable"
+      ]
     },
     {
       "id": "gifts-under-100-010",
@@ -158,7 +182,10 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Mini+Projector",
       "affiliateUrl": "https://www.amazon.com/s?k=portable+mini+projector+1080p&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "giftable"]
+      "tags": [
+        "prime",
+        "giftable"
+      ]
     }
   ]
 }
