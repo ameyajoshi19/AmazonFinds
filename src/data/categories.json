@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "kitchen",
+    "name": "Kitchen",
+    "description": "Top-rated kitchen tools, gadgets, and essentials to upgrade your cooking experience.",
+    "icon": "UtensilsCrossed",
+    "accentColor": "orange",
+    "scaffolded": false
+  },
+  {
+    "slug": "bathroom",
+    "name": "Bathroom",
+    "description": "Stylish and functional bathroom accessories, organizers, and upgrades for a spa-like experience.",
+    "icon": "Bath",
+    "accentColor": "cyan",
+    "scaffolded": false
+  },
+  {
+    "slug": "bedroom",
+    "name": "Bedroom",
+    "description": "Cozy bedding, décor, and bedroom essentials for your perfect sanctuary.",
+    "icon": "Bed",
+    "accentColor": "indigo",
+    "scaffolded": false
+  },
+  {
+    "slug": "living-room",
+    "name": "Living Room",
+    "description": "Furniture accents, décor, and smart gadgets to make your living room the heart of your home.",
+    "icon": "Sofa",
+    "accentColor": "purple",
+    "scaffolded": false
+  },
+  {
+    "slug": "home-organization",
+    "name": "Home Organization",
+    "description": "Bins, racks, dividers, and clever solutions to keep every room neat and clutter-free.",
+    "icon": "LayoutGrid",
+    "accentColor": "blue",
+    "scaffolded": false
+  },
+  {
+    "slug": "cleaning",
+    "name": "Cleaning & Laundry",
+    "description": "Powerful cleaning tools and laundry essentials that make household chores faster and easier.",
+    "icon": "Sparkles",
+    "accentColor": "sky",
+    "scaffolded": false
+  },
+  {
+    "slug": "storage-shelving",
+    "name": "Storage & Shelving",
+    "description": "Wall shelves, cube storage, and freestanding units to maximize every inch of your space.",
+    "icon": "Archive",
+    "accentColor": "stone",
+    "scaffolded": false
+  },
+  {
+    "slug": "lighting",
+    "name": "Lighting & Ambiance",
+    "description": "LED strips, smart bulbs, and decorative lighting to set the perfect mood in any room.",
+    "icon": "Lightbulb",
+    "accentColor": "yellow",
+    "scaffolded": false
+  },
+  {
+    "slug": "smart-home",
+    "name": "Smart Home",
+    "description": "Smart plugs, hubs, cameras, and connected devices that bring convenience and security home.",
+    "icon": "Wifi",
+    "accentColor": "violet",
+    "scaffolded": false
+  },
+  {
+    "slug": "candles-diffusers",
+    "name": "Candles & Diffusers",
+    "description": "Scented candles, essential oil diffusers, and aromatherapy finds to fill your home with beautiful fragrance.",
+    "icon": "Flame",
+    "accentColor": "rose",
+    "scaffolded": false
+  },
+  {
+    "slug": "outdoor-garden",
+    "name": "Outdoor & Garden",
+    "description": "Garden tools, outdoor lighting, and patio accessories to transform your outdoor spaces.",
+    "icon": "Trees",
+    "accentColor": "green",
+    "scaffolded": false
+  },
+  {
+    "slug": "grilling-bbq",
+    "name": "Grilling & BBQ",
+    "description": "Grills, smokers, accessories, and tools for the ultimate backyard BBQ experience.",
+    "icon": "Flame",
+    "accentColor": "red",
+    "scaffolded": false
+  },
+  {
+    "slug": "camping-hiking",
+    "name": "Camping & Hiking",
+    "description": "Tents, sleeping bags, hydration, and gear for every outdoor adventure.",
+    "icon": "Tent",
+    "accentColor": "emerald",
+    "scaffolded": false
+  },
+  {
+    "slug": "patio-furniture",
+    "name": "Patio & Outdoor Furniture",
+    "description": "Durable, weather-resistant furniture and accessories to create an inviting outdoor living space.",
+    "icon": "Armchair",
+    "accentColor": "lime",
+    "scaffolded": false
+  },
+  {
+    "slug": "plant-care",
+    "name": "Plant Care",
+    "description": "Pots, watering tools, soil, and grow lights to keep your indoor and outdoor plants thriving.",
+    "icon": "Leaf",
+    "accentColor": "teal",
+    "scaffolded": false
+  },
+  {
+    "slug": "coffee-tea",
+    "name": "Coffee & Tea",
+    "description": "Premium coffee makers, grinders, kettles, and accessories for the perfect brew every morning.",
+    "icon": "Coffee",
+    "accentColor": "amber",
+    "scaffolded": false
+  },
+  {
+    "slug": "bar-tools",
+    "name": "Bar Tools & Drinkware",
+    "description": "Cocktail shakers, glassware, wine accessories, and bar essentials for home entertaining.",
+    "icon": "Wine",
+    "accentColor": "fuchsia",
+    "scaffolded": false
+  },
+  {
+    "slug": "food-storage",
+    "name": "Food Storage",
+    "description": "Airtight containers, reusable bags, and smart storage solutions to keep food fresh longer.",
+    "icon": "Package",
+    "accentColor": "zinc",
+    "scaffolded": false
+  },
+  {
+    "slug": "pantry-snacks",
+    "name": "Pantry & Snacks",
+    "description": "Delicious snacks, pantry staples, and specialty foods that Amazon customers can't stop reordering.",
+    "icon": "ShoppingBag",
+    "accentColor": "orange",
+    "scaffolded": false
+  },
+  {
+    "slug": "kitchen-appliances",
+    "name": "Kitchen Appliances",
+    "description": "Air fryers, instant pots, blenders, and countertop appliances that revolutionize meal prep.",
+    "icon": "Zap",
+    "accentColor": "cyan",
+    "scaffolded": false
+  },
+  {
+    "slug": "gifts-under-20",
+    "name": "Gifts Under $20",
+    "description": "Thoughtful, fun, and practical gifts that prove great presents don't have to break the bank.",
+    "icon": "Gift",
+    "accentColor": "pink",
+    "scaffolded": false
+  },
+  {
+    "slug": "gifts-under-50",
+    "name": "Gifts Under $50",
+    "description": "Impressive gifts for every occasion — from birthdays to holidays — all under $50.",
+    "icon": "Gift",
+    "accentColor": "purple",
+    "scaffolded": false
+  },
+  {
+    "slug": "gifts-under-100",
+    "name": "Gifts Under $100",
+    "description": "Premium gift ideas that make a real statement without crossing the $100 threshold.",
+    "icon": "Gift",
+    "accentColor": "violet",
+    "scaffolded": false
+  },
+  {
+    "slug": "splurge-worthy",
+    "name": "Worth Every Penny",
+    "description": "High-end products with exceptional quality, longevity, and features that justify the investment.",
+    "icon": "Crown",
+    "accentColor": "amber",
+    "scaffolded": false
+  },
+  {
+    "slug": "deals-of-the-day",
+    "name": "Trending Deals",
+    "description": "Viral, trending, and wildly popular products that Amazon shoppers are obsessing over right now.",
+    "icon": "TrendingUp",
+    "accentColor": "green",
+    "scaffolded": false
+  },
+  {
+    "slug": "fitness",
+    "name": "Fitness & Home Gym",
+    "description": "Dumbbells, resistance bands, yoga mats, and equipment to build your perfect home gym.",
+    "icon": "Dumbbell",
+    "accentColor": "red",
+    "scaffolded": false
+  },
+  {
+    "slug": "yoga-meditation",
+    "name": "Yoga & Meditation",
+    "description": "Mats, blocks, bolsters, meditation cushions, and mindfulness tools for your wellness practice.",
+    "icon": "Heart",
+    "accentColor": "pink",
+    "scaffolded": false
+  },
+  {
+    "slug": "vitamins-supplements",
+    "name": "Vitamins & Supplements",
+    "description": "Top-rated vitamins, protein powders, and wellness supplements trusted by thousands of Amazon shoppers.",
+    "icon": "Pill",
+    "accentColor": "lime",
+    "scaffolded": false
+  },
+  {
+    "slug": "sleep",
+    "name": "Sleep & Bedding",
+    "description": "Pillows, weighted blankets, white noise machines, and sleep accessories for deeper, better rest.",
+    "icon": "Moon",
+    "accentColor": "indigo",
+    "scaffolded": false
+  },
+  {
+    "slug": "skincare",
+    "name": "Skincare",
+    "description": "Dermatologist-recommended cleansers, serums, moisturizers, and tools for glowing, healthy skin.",
+    "icon": "Sparkles",
+    "accentColor": "rose",
+    "scaffolded": false
+  }
+]
