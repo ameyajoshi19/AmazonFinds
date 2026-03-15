@@ -12,11 +12,12 @@
       "rating": 4.7,
       "reviewCount": 28000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Manduka+Mat",
-      "affiliateUrl": "https://www.amazon.com/dp/B079DQ14VB?tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B078VJ81M2?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B078VJ81M2"
     },
     {
       "id": "yoga-meditation-002",
@@ -30,11 +31,12 @@
       "rating": 4.6,
       "reviewCount": 8500,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Meditation+Cushion",
-      "affiliateUrl": "https://www.amazon.com/s?k=meditation+cushion+zafu+zabuton+set&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B08M6HPL6K?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B08M6HPL6K"
     },
     {
       "id": "yoga-meditation-003",
@@ -48,11 +50,12 @@
       "rating": 4.7,
       "reviewCount": 15000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Cork+Blocks",
-      "affiliateUrl": "https://www.amazon.com/s?k=yoga+blocks+set+2+cork&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0CS4H2H6R?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B0CS4H2H6R"
     },
     {
       "id": "yoga-meditation-004",
@@ -66,12 +69,13 @@
       "rating": 4.6,
       "reviewCount": 35000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=White+Noise+Machine",
-      "affiliateUrl": "https://www.amazon.com/s?k=white+noise+machine+sleep+meditation&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B00E6D6LQY?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B00E6D6LQY"
     },
     {
       "id": "yoga-meditation-005",
@@ -85,11 +89,12 @@
       "rating": 4.6,
       "reviewCount": 22000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Yoga+Strap",
-      "affiliateUrl": "https://www.amazon.com/s?k=yoga+strap+8ft+metal+d+ring&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0FNWY757V?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B0FNWY757V"
     },
     {
       "id": "yoga-meditation-006",
@@ -103,12 +108,13 @@
       "rating": 4.6,
       "reviewCount": 28000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Salt+Lamp",
-      "affiliateUrl": "https://www.amazon.com/s?k=himalayan+salt+lamp+dimmer+switch&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B002LZUE76?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B002LZUE76"
     },
     {
       "id": "yoga-meditation-007",
@@ -126,7 +132,8 @@
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B07HL2S9JQ"
     },
     {
       "id": "yoga-meditation-008",
@@ -140,12 +147,13 @@
       "rating": 4.6,
       "reviewCount": 45000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Oil+Diffuser",
-      "affiliateUrl": "https://www.amazon.com/s?k=essential+oil+diffuser+500ml+ultrasonic&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B07GWN99RG?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B07GWN99RG"
     },
     {
       "id": "yoga-meditation-009",
@@ -159,11 +167,12 @@
       "rating": 4.7,
       "reviewCount": 6500,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Yoga+Bolster",
-      "affiliateUrl": "https://www.amazon.com/s?k=yoga+bolster+rectangular+organic+cotton&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0829ZW24K?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B0829ZW24K"
     },
     {
       "id": "yoga-meditation-010",
@@ -177,12 +186,13 @@
       "rating": 4.7,
       "reviewCount": 12000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Singing+Bowl",
-      "affiliateUrl": "https://www.amazon.com/s?k=tibetan+singing+bowl+set+mallet+cushion&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B09DYR8KFZ?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "giftable"
-      ]
+      ],
+      "asin": "B09DYR8KFZ"
     }
   ]
 }

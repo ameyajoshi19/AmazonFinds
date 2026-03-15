@@ -7,15 +7,20 @@
       "featured": true,
       "name": "Amazon Fire TV Stick 4K Max (2nd Gen)",
       "description": "The fastest Fire TV Stick ever with a 2GHz processor and 16GB of storage streams 4K Ultra HD, HDR10+, Dolby Vision, and Dolby Atmos from Netflix, Disney+, Prime Video, and 1.5 million+ apps. Wi-Fi 6E support reduces buffering on congested networks, and Ambient Mode turns your TV into a digital art display when idle. Alexa Voice Remote Pro includes a TV controls button and remote finder feature.",
-      "whyTopFind": "Fire TV Stick 4K Max is Amazon's best-selling streaming device for good reason — Wi-Fi 6E and the fastest processor in its class make it the most future-proof 4K streaming stick available.",
+      "whyTopFind": "Fire TV Stick 4K Max is Amazon's best-selling streaming device for good reason \u2014 Wi-Fi 6E and the fastest processor in its class make it the most future-proof 4K streaming stick available.",
       "price": 59.99,
       "originalPrice": 79.99,
       "rating": 4.7,
       "reviewCount": 98400,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Fire+TV+Stick+4K+Max",
-      "affiliateUrl": "https://www.amazon.com/s?k=Amazon+Fire+TV+Stick+4K+Max+2nd+Gen&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0BP9SNVH9?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["bestseller", "prime", "amazon-choice"]
+      "tags": [
+        "bestseller",
+        "prime",
+        "amazon-choice"
+      ],
+      "asin": "B0BP9SNVH9"
     },
     {
       "id": "streaming-devices-002",
@@ -24,15 +29,19 @@
       "featured": false,
       "name": "Roku Streaming Stick 4K",
       "description": "Tiny stick form factor with a long-range wireless receiver for reliable streaming in any room of the house, supporting 4K HDR and Dolby Vision content from over 500,000 movies and TV episodes across free and paid channels. The Roku mobile app doubles as a remote control with private listening via headphones, and Voice Search quickly finds content across multiple streaming services simultaneously. Includes a simple, no-subscription Roku account for access to free live TV channels.",
-      "whyTopFind": "Roku Streaming Stick 4K is the top-rated non-Amazon streaming stick for users who want a neutral platform without an ecosystem push — its universal search across all services is genuinely the best in the category.",
+      "whyTopFind": "Roku Streaming Stick 4K is the top-rated non-Amazon streaming stick for users who want a neutral platform without an ecosystem push \u2014 its universal search across all services is genuinely the best in the category.",
       "price": 49.99,
       "originalPrice": 69.99,
       "rating": 4.6,
       "reviewCount": 62300,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Roku+Streaming+Stick+4K",
-      "affiliateUrl": "https://www.amazon.com/s?k=Roku+Streaming+Stick+4K&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B09QMRNL86?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["bestseller", "prime"]
+      "tags": [
+        "bestseller",
+        "prime"
+      ],
+      "asin": "B09QMRNL86"
     },
     {
       "id": "streaming-devices-003",
@@ -47,9 +56,12 @@
       "rating": 4.5,
       "reviewCount": 48700,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Chromecast+Google+TV+4K",
-      "affiliateUrl": "https://www.amazon.com/s?k=Google+Chromecast+with+Google+TV+4K&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B08KRV7S22?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ],
+      "asin": "B08KRV7S22"
     },
     {
       "id": "streaming-devices-004",
@@ -58,15 +70,18 @@
       "featured": false,
       "name": "Amazon Fire TV Cube (3rd Gen)",
       "description": "The most powerful streaming device Amazon makes with a 2.2GHz octa-core processor and 16GB storage handles 4K streaming, gaming, and smart home control while the built-in 8-microphone far-field array lets you control everything with Alexa completely hands-free from across the room. HDMI input lets the Fire TV Cube act as a hub for cable boxes and game consoles, controlling them with your voice. Can replace your cable box as the primary TV input.",
-      "whyTopFind": "Fire TV Cube is the premium Amazon streaming device for smart home enthusiasts — the hands-free Alexa integration and ability to control your cable box with voice commands justifies the price premium for connected home users.",
+      "whyTopFind": "Fire TV Cube is the premium Amazon streaming device for smart home enthusiasts \u2014 the hands-free Alexa integration and ability to control your cable box with voice commands justifies the price premium for connected home users.",
       "price": 139.99,
       "originalPrice": 159.99,
       "rating": 4.6,
       "reviewCount": 34200,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Fire+TV+Cube+3rd+Gen",
-      "affiliateUrl": "https://www.amazon.com/s?k=Amazon+Fire+TV+Cube+3rd+Gen&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B09BZZ3MM7?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ],
+      "asin": "B09BZZ3MM7"
     },
     {
       "id": "streaming-devices-005",
@@ -75,15 +90,18 @@
       "featured": false,
       "name": "Roku Ultra 2022 4K Streaming Player",
       "description": "Roku's most powerful streaming box supports 4K, HDR10+, Dolby Vision, and Dolby Atmos and includes a premium remote with a headphone jack for private listening, lost remote finder, and shortcut buttons for one-tap access to your favorite channels. The ethernet port and dual-band Wi-Fi ensure the most reliable connection for 4K streaming, and USB and microSD expansion slots add local media playback capability.",
-      "whyTopFind": "Roku Ultra is the top-rated streaming box on Amazon for cord-cutters who want the most reliable setup — the ethernet port and headphone jack in the remote are practical features that cheaper sticks can't match.",
+      "whyTopFind": "Roku Ultra is the top-rated streaming box on Amazon for cord-cutters who want the most reliable setup \u2014 the ethernet port and headphone jack in the remote are practical features that cheaper sticks can't match.",
       "price": 99.99,
       "originalPrice": 129.99,
       "rating": 4.6,
       "reviewCount": 27100,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Roku+Ultra+2022",
-      "affiliateUrl": "https://www.amazon.com/s?k=Roku+Ultra+2022+4K+Streaming+Player&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B09T4VZDYV?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ],
+      "asin": "B09T4VZDYV"
     },
     {
       "id": "streaming-devices-006",
@@ -92,15 +110,18 @@
       "featured": false,
       "name": "NVIDIA SHIELD TV Pro Streaming Media Player",
       "description": "The most powerful Android TV streaming device available with a Tegra X1+ processor capable of running Plex Media Server, AI upscaling of 1080p content to near-4K quality, and even cloud gaming via GeForce NOW. Supports Dolby Vision, HDR10, and Dolby Atmos natively, and the gigabit ethernet plus dual-band Wi-Fi eliminate any buffering on even the largest 4K HDR files. Amazon Alexa and Google Assistant both work with voice search.",
-      "whyTopFind": "NVIDIA SHIELD TV Pro is the undisputed premium streaming device on Amazon for power users — AI upscaling, Plex server capability, and cloud gaming make it a genuine entertainment hub rather than a simple streaming stick.",
+      "whyTopFind": "NVIDIA SHIELD TV Pro is the undisputed premium streaming device on Amazon for power users \u2014 AI upscaling, Plex server capability, and cloud gaming make it a genuine entertainment hub rather than a simple streaming stick.",
       "price": 199.99,
       "originalPrice": 229.99,
       "rating": 4.7,
       "reviewCount": 18600,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=NVIDIA+SHIELD+TV+Pro",
-      "affiliateUrl": "https://www.amazon.com/s?k=NVIDIA+SHIELD+TV+Pro+Streaming+Media+Player&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B07YP9FBMM?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ],
+      "asin": "B07YP9FBMM"
     },
     {
       "id": "streaming-devices-007",
@@ -109,15 +130,19 @@
       "featured": false,
       "name": "Amazon Fire TV Stick Lite",
       "description": "The most affordable way to add Alexa-powered streaming to any TV with an HDMI port, supporting Full HD 1080p with HDR10 and HLG for crisp, vibrant picture quality. Alexa Voice Remote Lite lets you search for shows, control playback, and manage smart home devices by voice, and over 1.5 million movies and TV episodes are available across Prime Video, Netflix, Hulu, Disney+, and dozens more services.",
-      "whyTopFind": "Fire TV Stick Lite is one of the best-selling electronics items on all of Amazon because it delivers genuinely useful smart TV functionality to any TV for under $30 — the value proposition is simply unbeatable.",
+      "whyTopFind": "Fire TV Stick Lite is one of the best-selling electronics items on all of Amazon because it delivers genuinely useful smart TV functionality to any TV for under $30 \u2014 the value proposition is simply unbeatable.",
       "price": 29.99,
       "originalPrice": 39.99,
       "rating": 4.5,
       "reviewCount": 141200,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Fire+TV+Stick+Lite",
-      "affiliateUrl": "https://www.amazon.com/s?k=Amazon+Fire+TV+Stick+Lite&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B091G4YP57?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["bestseller", "prime"]
+      "tags": [
+        "bestseller",
+        "prime"
+      ],
+      "asin": "B091G4YP57"
     },
     {
       "id": "streaming-devices-008",
@@ -126,15 +151,18 @@
       "featured": false,
       "name": "Apple TV 4K (3rd Generation) Wi-Fi + Ethernet",
       "description": "Apple's most advanced streaming box with an A15 Bionic chip delivers cinema-grade 4K Dolby Vision, Dolby Atmos, and spatial audio for Apple TV+ and other compatible streaming services. Thread smart home protocol support and the Siri Remote with touch-sensitive clickpad provide precise navigation, and HomeKit integration makes it the best home hub for Apple device users. AirPlay lets you beam content from any Apple device instantly.",
-      "whyTopFind": "Apple TV 4K is the top-rated streaming device on Amazon for Apple ecosystem users — the tight integration with iPhone, iPad, HomePod, and HomeKit makes it the control center of a connected Apple home.",
+      "whyTopFind": "Apple TV 4K is the top-rated streaming device on Amazon for Apple ecosystem users \u2014 the tight integration with iPhone, iPad, HomePod, and HomeKit makes it the control center of a connected Apple home.",
       "price": 149.99,
       "originalPrice": 179.99,
       "rating": 4.7,
       "reviewCount": 22400,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Apple+TV+4K+3rd+Gen",
-      "affiliateUrl": "https://www.amazon.com/s?k=Apple+TV+4K+3rd+Generation+WiFi+Ethernet&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0BJMGB95J?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ],
+      "asin": "B0BJMGB95J"
     },
     {
       "id": "streaming-devices-009",
@@ -143,15 +171,19 @@
       "featured": false,
       "name": "Roku Express 4K+",
       "description": "Compact 4K streaming player with HDR10 and Dolby Vision support at the most affordable price in the Roku 4K lineup, including a private listening-capable remote with mobile app control. The simple Roku interface loads quickly and reliably, and the included voice remote allows hands-free channel switching and content search. Works with any HDMI TV and includes an HDMI cable and power adapter in the box.",
-      "whyTopFind": "Roku Express 4K+ is the best 4K streaming value on Amazon — it delivers full 4K HDR and Dolby Vision capabilities for under $40, making it the top recommendation for budget-conscious buyers upgrading from HD.",
+      "whyTopFind": "Roku Express 4K+ is the best 4K streaming value on Amazon \u2014 it delivers full 4K HDR and Dolby Vision capabilities for under $40, making it the top recommendation for budget-conscious buyers upgrading from HD.",
       "price": 39.99,
       "originalPrice": 49.99,
       "rating": 4.5,
       "reviewCount": 39800,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Roku+Express+4K+Plus",
-      "affiliateUrl": "https://www.amazon.com/s?k=Roku+Express+4K+Plus&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0916TKFF2?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime", "amazon-choice"]
+      "tags": [
+        "prime",
+        "amazon-choice"
+      ],
+      "asin": "B0916TKFF2"
     },
     {
       "id": "streaming-devices-010",
@@ -160,7 +192,7 @@
       "featured": false,
       "name": "Plex Media Server NAS-Compatible Streaming Setup Guide",
       "description": "Western Digital WD 4TB My Cloud Home personal cloud storage device acts as a home media server, allowing you to stream your personal movie, music, and photo library to any device in your house or remotely over the internet. Companion Plex or WD My Cloud app on any Fire TV, Roku, or Chromecast plays your files in virtually any format without transcoding delays. Automatic backup from phones and computers protects your memories.",
-      "whyTopFind": "WD My Cloud Home is the most-reviewed personal NAS device on Amazon and the simplest way to build a home media server without technical expertise — the companion apps work beautifully with every major streaming platform.",
+      "whyTopFind": "WD My Cloud Home is the most-reviewed personal NAS device on Amazon and the simplest way to build a home media server without technical expertise \u2014 the companion apps work beautifully with every major streaming platform.",
       "price": 109.99,
       "originalPrice": 149.99,
       "rating": 4.3,
@@ -168,7 +200,9 @@
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=WD+My+Cloud+Home+4TB",
       "affiliateUrl": "https://www.amazon.com/s?k=Western+Digital+WD+4TB+My+Cloud+Home+Personal+Cloud+Storage&tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
-      "tags": ["prime"]
+      "tags": [
+        "prime"
+      ]
     }
   ]
 }

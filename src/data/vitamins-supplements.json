@@ -12,12 +12,13 @@
       "rating": 4.5,
       "reviewCount": 18000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=AG1+Greens",
-      "affiliateUrl": "https://www.amazon.com/dp/B0CW85FZPY?tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B084GZNKZQ?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B084GZNKZQ"
     },
     {
       "id": "vitamins-supplements-002",
@@ -31,12 +32,13 @@
       "rating": 4.7,
       "reviewCount": 42000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Vitamin+D3+K2",
-      "affiliateUrl": "https://www.amazon.com/s?k=vitamin+d3+k2+softgels+5000iu&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0771R5L28?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B0771R5L28"
     },
     {
       "id": "vitamins-supplements-003",
@@ -50,12 +52,13 @@
       "rating": 4.7,
       "reviewCount": 55000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Magnesium",
-      "affiliateUrl": "https://www.amazon.com/s?k=magnesium+glycinate+400mg+capsules&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B00151G8L8?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B00151G8L8"
     },
     {
       "id": "vitamins-supplements-004",
@@ -69,12 +72,13 @@
       "rating": 4.6,
       "reviewCount": 68000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Fish+Oil",
-      "affiliateUrl": "https://www.amazon.com/s?k=omega+3+fish+oil+2000mg+epa+dha&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B014LDT0ZM?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B014LDT0ZM"
     },
     {
       "id": "vitamins-supplements-005",
@@ -88,11 +92,12 @@
       "rating": 4.6,
       "reviewCount": 38000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Probiotic",
-      "affiliateUrl": "https://www.amazon.com/s?k=probiotic+50+billion+cfu+20+strains&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B07CZGVXKY?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B07CZGVXKY"
     },
     {
       "id": "vitamins-supplements-006",
@@ -106,12 +111,13 @@
       "rating": 4.6,
       "reviewCount": 45000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Ashwagandha",
-      "affiliateUrl": "https://www.amazon.com/s?k=ashwagandha+ksm-66+600mg+capsules&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B079K32QB6?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B079K32QB6"
     },
     {
       "id": "vitamins-supplements-007",
@@ -125,12 +131,13 @@
       "rating": 4.6,
       "reviewCount": 52000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Collagen+Peptides",
-      "affiliateUrl": "https://www.amazon.com/s?k=collagen+peptides+powder+unflavored&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B00K6JUG4K?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B00K6JUG4K"
     },
     {
       "id": "vitamins-supplements-008",
@@ -144,11 +151,12 @@
       "rating": 4.7,
       "reviewCount": 22000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Zinc+Bisglycinate",
-      "affiliateUrl": "https://www.amazon.com/s?k=zinc+bisglycinate+30mg+with+copper&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0BYPFPJK2?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B0BYPFPJK2"
     },
     {
       "id": "vitamins-supplements-009",
@@ -162,12 +170,13 @@
       "rating": 4.7,
       "reviewCount": 75000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Creatine",
-      "affiliateUrl": "https://www.amazon.com/s?k=creatine+monohydrate+powder+micronized&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B002DYIZEO?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B002DYIZEO"
     },
     {
       "id": "vitamins-supplements-010",
@@ -181,11 +190,12 @@
       "rating": 4.5,
       "reviewCount": 48000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Multivitamin",
-      "affiliateUrl": "https://www.amazon.com/s?k=whole+food+multivitamin+90+count&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B00280M13Y?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B00280M13Y"
     }
   ]
 }

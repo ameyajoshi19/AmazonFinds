@@ -12,12 +12,13 @@
       "rating": 4.5,
       "reviewCount": 22000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Hatch+Restore",
-      "affiliateUrl": "https://www.amazon.com/dp/B0C5S7K1JK?tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B0C67ZDQLX?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B0C67ZDQLX"
     },
     {
       "id": "sleep-002",
@@ -35,7 +36,8 @@
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B01LYU7V4S"
     },
     {
       "id": "sleep-003",
@@ -53,7 +55,8 @@
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B08CS22G7Z"
     },
     {
       "id": "sleep-004",
@@ -67,12 +70,13 @@
       "rating": 4.5,
       "reviewCount": 42000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Blue+Light+Glasses",
-      "affiliateUrl": "https://www.amazon.com/s?k=blue+light+blocking+glasses+computer&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B01GSFTX08?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B01GSFTX08"
     },
     {
       "id": "sleep-005",
@@ -86,12 +90,13 @@
       "rating": 4.6,
       "reviewCount": 65000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Melatonin",
-      "affiliateUrl": "https://www.amazon.com/s?k=melatonin+3mg+fast+dissolve+tablets&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B000GG6D9A?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B000GG6D9A"
     },
     {
       "id": "sleep-006",
@@ -105,11 +110,12 @@
       "rating": 4.5,
       "reviewCount": 8500,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Buckwheat+Pillow",
-      "affiliateUrl": "https://www.amazon.com/s?k=buckwheat+hull+pillow+standard&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B01DJG7T9G?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B01DJG7T9G"
     },
     {
       "id": "sleep-007",
@@ -123,12 +129,13 @@
       "rating": 4.6,
       "reviewCount": 48000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Blackout+Curtains",
-      "affiliateUrl": "https://www.amazon.com/s?k=blackout+curtains+84+inch+set+2&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B015SJ7RYY?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B015SJ7RYY"
     },
     {
       "id": "sleep-008",
@@ -164,7 +171,8 @@
       "youtubeVideoId": null,
       "tags": [
         "prime"
-      ]
+      ],
+      "asin": "B08MFDT65P"
     },
     {
       "id": "sleep-010",
@@ -178,12 +186,13 @@
       "rating": 4.6,
       "reviewCount": 38000,
       "imageUrl": "https://placehold.co/400x400/1f2937/f59e0b?text=Bamboo+Sheets",
-      "affiliateUrl": "https://www.amazon.com/s?k=bamboo+cooling+sheets+queen+4+piece&tag=AFFILIATE_TAG_PLACEHOLDER",
+      "affiliateUrl": "https://www.amazon.com/dp/B07YKCZHGK?tag=AFFILIATE_TAG_PLACEHOLDER",
       "youtubeVideoId": null,
       "tags": [
         "prime",
         "bestseller"
-      ]
+      ],
+      "asin": "B07YKCZHGK"
     }
   ]
 }
