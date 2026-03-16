@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "refresh-products": "npx ts-node --project tsconfig.scripts.json scripts/refresh-products.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
