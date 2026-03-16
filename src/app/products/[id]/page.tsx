@@ -8,6 +8,7 @@ import {
 } from "@/data/loader";
 import ProductDetail from "@/components/product/ProductDetail";
 import PageViewTracker from "@/components/analytics/PageViewTracker";
+import JsonLd, { breadcrumbSchema, productSchema } from "@/components/seo/JsonLd";
 import type { Product } from "@/types";
 
 export const revalidate = 3600;
@@ -29,13 +30,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const product = await getProductById(id);
   if (!product) return {};
 
+  const year = new Date().getFullYear();
+  const title = `${product.name} Review (${year})`;
+
   return {
-    title: product.name,
+    title,
     description: product.whyTopFind,
+    alternates: { canonical: `/products/${id}` },
     openGraph: {
-      title: product.name,
+      title,
       description: product.whyTopFind,
       images: [{ url: product.imageUrl }],
+      url: `/products/${id}`,
     },
   };
 }
@@ -52,6 +58,14 @@ export default async function ProductPage({ params }: PageProps) {
   return (
     <div className="pt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
       <PageViewTracker entityType="product" entityId={id} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: category.name, path: `/categories/${product.categorySlug}` },
+          { name: product.name, path: `/products/${id}` },
+        ])}
+      />
+      <JsonLd data={productSchema(product)} />
       <ProductDetail product={product} category={category} />
     </div>
   );

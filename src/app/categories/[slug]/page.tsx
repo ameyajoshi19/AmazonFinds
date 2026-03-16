@@ -4,6 +4,7 @@ import { getAllCategories, getCategoryData } from "@/data/loader";
 import CategoryHero from "@/components/category/CategoryHero";
 import ProductGrid from "@/components/product/ProductGrid";
 import PageViewTracker from "@/components/analytics/PageViewTracker";
+import JsonLd, { breadcrumbSchema, itemListSchema } from "@/components/seo/JsonLd";
 
 export const revalidate = 3600;
 
@@ -21,12 +22,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const data = await getCategoryData(slug);
   if (!data) return {};
 
+  const year = new Date().getFullYear();
+  const title = `10 Best ${data.category.name} on Amazon (${year})`;
+  const description = `Discover the top 10 best ${data.category.name} available on Amazon in ${year}. ${data.category.description}`;
+
   return {
-    title: `${data.category.name} — Top 10 Amazon Finds`,
-    description: data.category.description,
+    title,
+    description,
+    alternates: { canonical: `/categories/${slug}` },
     openGraph: {
-      title: `${data.category.name} — Top 10 Amazon Finds`,
-      description: data.category.description,
+      title,
+      description,
+      url: `/categories/${slug}`,
     },
   };
 }
@@ -42,6 +49,13 @@ export default async function CategoryPage({ params }: PageProps) {
   return (
     <div className="pt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
       <PageViewTracker entityType="category" entityId={slug} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: data.category.name, path: `/categories/${slug}` },
+        ])}
+      />
+      <JsonLd data={itemListSchema(data.category, data.products)} />
       <CategoryHero
         category={data.category}
         productCount={data.products.length}
