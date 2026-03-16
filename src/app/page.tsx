@@ -1,17 +1,15 @@
-import { getAllCategories, getProductsByCategory } from "@/data/loader";
+import { getAllCategories, getProductCountsByCategory } from "@/data/loader";
 import Hero from "@/components/home/Hero";
 import CategoryGrid from "@/components/home/CategoryGrid";
 
 export const revalidate = 3600;
 
 export default async function HomePage() {
-  const categories = await getAllCategories();
-
-  const productCounts: Record<string, number> = {};
-  for (const cat of categories) {
-    const products = await getProductsByCategory(cat.slug);
-    productCounts[cat.slug] = products.length;
-  }
+  // Parallel queries: category list + product counts per category (single DB query each)
+  const [categories, productCounts] = await Promise.all([
+    getAllCategories(),
+    getProductCountsByCategory(),
+  ]);
 
   return (
     <>

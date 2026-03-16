@@ -54,8 +54,7 @@ export const pageViews = pgTable(
   "page_views",
   {
     id: bigserial("id", { mode: "number" }).primaryKey(),
-    // "product" or "category"
-    entityType: varchar("entity_type", { length: 20 }).notNull(),
+    entityType: varchar("entity_type", { length: 20 }).$type<EntityType>().notNull(),
     entityId: varchar("entity_id", { length: 200 }).notNull(),
     viewedAt: timestamp("viewed_at").defaultNow().notNull(),
     userAgent: text("user_agent"),
@@ -83,6 +82,9 @@ export const affiliateClicks = pgTable(
     index("affiliate_clicks_clicked_at_idx").on(table.clickedAt),
   ]
 );
+
+/** Discriminates which entity a page_view row refers to. */
+export type EntityType = "product" | "category";
 
 export type Category = typeof categories.$inferSelect;
 export type NewCategory = typeof categories.$inferInsert;

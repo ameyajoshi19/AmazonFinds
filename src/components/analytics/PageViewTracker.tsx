@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect } from "react";
+import type { EntityType } from "@/lib/schema";
 
 interface PageViewTrackerProps {
-  entityType: "product" | "category";
+  entityType: EntityType;
   entityId: string;
 }
 

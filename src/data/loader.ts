@@ -1,6 +1,6 @@
 import { db } from "@/lib/db";
 import { categories as categoriesTable, products as productsTable } from "@/lib/schema";
-import { eq, asc } from "drizzle-orm";
+import { eq, asc, sql } from "drizzle-orm";
 import type { Product, Category, CategoryData, SearchableProduct } from "@/types";
 
 // ── Type mappers ──────────────────────────────────────────────────────────────
@@ -46,11 +46,6 @@ export async function getAllCategories(): Promise<Category[]> {
     .select()
     .from(categoriesTable)
     .where(eq(categoriesTable.scaffolded, false));
-  return rows.map(mapCategory);
-}
-
-export async function getAllCategoriesIncludingScaffolded(): Promise<Category[]> {
-  const rows = await db.select().from(categoriesTable);
   return rows.map(mapCategory);
 }
 
@@ -105,6 +100,24 @@ export async function getAllSearchableProducts(): Promise<SearchableProduct[]> {
     ...mapProduct(product),
     categoryName,
   }));
+}
+
+/**
+ * Returns product counts per category slug in a single query.
+ * Used by the home page to render category badges without N+1 queries.
+ */
+export async function getProductCountsByCategory(): Promise<Record<string, number>> {
+  const rows = await db
+    .select({
+      slug: productsTable.categorySlug,
+      count: sql<number>`count(*)::int`,
+    })
+    .from(productsTable)
+    .innerJoin(categoriesTable, eq(productsTable.categorySlug, categoriesTable.slug))
+    .where(eq(categoriesTable.scaffolded, false))
+    .groupBy(productsTable.categorySlug);
+
+  return Object.fromEntries(rows.map((r) => [r.slug, r.count]));
 }
 
 export async function getCategoryData(slug: string): Promise<CategoryData | null> {

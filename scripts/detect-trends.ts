@@ -1,5 +1,6 @@
 import { db } from "../src/lib/db";
 import { categories } from "../src/lib/schema";
+import { slugify } from "../src/lib/utils";
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const googleTrends = require("google-trends-api");
@@ -26,15 +27,6 @@ interface TrendResult {
 async function loadExistingCategorySlugs(): Promise<Set<string>> {
   const rows = await db.select({ slug: categories.slug }).from(categories);
   return new Set(rows.map((r) => r.slug));
-}
-
-function keywordToSlug(keyword: string): string {
-  return keyword
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .trim();
 }
 
 async function fetchRelatedQueries(keyword: string): Promise<TrendResult[]> {
@@ -72,7 +64,7 @@ async function detectNewCategories(): Promise<string[]> {
     try {
       const related = await fetchRelatedQueries(seed);
       for (const trend of related) {
-        const slug = keywordToSlug(trend.keyword);
+        const slug = slugify(trend.keyword);
         if (!existingSlugs.has(slug) && slug.length > 3) {
           newCandidates.push(trend.keyword);
           console.log(

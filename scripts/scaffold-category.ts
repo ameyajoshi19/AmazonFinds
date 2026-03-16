@@ -10,6 +10,7 @@
 import { db } from "../src/lib/db";
 import { categories } from "../src/lib/schema";
 import type { NewCategory } from "../src/lib/schema";
+import { slugify } from "../src/lib/utils";
 
 const DEFAULT_ICONS = [
   "Sparkles", "Star", "TrendingUp", "Zap", "Gift", "Heart",
@@ -30,15 +31,6 @@ function getNextIcon(): string {
 
 function getNextColor(): string {
   return DEFAULT_COLORS[colorIndex++ % DEFAULT_COLORS.length];
-}
-
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .trim();
 }
 
 function toTitleCase(text: string): string {
