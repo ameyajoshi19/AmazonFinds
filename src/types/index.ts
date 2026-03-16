@@ -14,6 +14,7 @@ export interface Product {
   affiliateUrl: string;
   youtubeVideoId?: string;
   tags?: string[];
+  asin?: string;
 }
 
 export interface Category {

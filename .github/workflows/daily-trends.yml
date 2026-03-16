@@ -32,26 +32,12 @@ jobs:
         run: npx ts-node --project tsconfig.scripts.json scripts/run-daily.ts
         env:
           NODE_ENV: production
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
           AMAZON_ACCESS_KEY_ID: ${{ secrets.AMAZON_ACCESS_KEY_ID }}
           AMAZON_SECRET_ACCESS_KEY: ${{ secrets.AMAZON_SECRET_ACCESS_KEY }}
           NEXT_PUBLIC_AFFILIATE_TAG: ${{ secrets.NEXT_PUBLIC_AFFILIATE_TAG }}
 
-      - name: Check for changes
-        id: check-changes
-        run: |
-          git diff --quiet src/data/ || echo "changed=true" >> $GITHUB_OUTPUT
-
-      - name: Commit and push updated data
-        if: steps.check-changes.outputs.changed == 'true'
-        run: |
-          git config --global user.name "AmazonFinds Bot"
-          git config --global user.email "bot@amazonfinds.com"
-          git add src/data/
-          git commit -m "chore: refresh product data [$(date +%Y-%m-%d)]"
-          git push
-
       - name: Trigger site revalidation
-        if: steps.check-changes.outputs.changed == 'true'
         run: |
           curl -X POST \
             -H "x-revalidate-secret: ${{ secrets.REVALIDATE_SECRET }}" \
@@ -59,7 +45,3 @@ jobs:
             -d '{}' \
             ${{ secrets.SITE_URL }}/api/revalidate || true
         continue-on-error: true
-
-      - name: No changes summary
-        if: steps.check-changes.outputs.changed != 'true'
-        run: echo "No product data changes today."

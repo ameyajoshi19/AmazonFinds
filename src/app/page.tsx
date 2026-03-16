@@ -4,12 +4,12 @@ import CategoryGrid from "@/components/home/CategoryGrid";
 
 export const revalidate = 3600;
 
-export default function HomePage() {
-  const categories = getAllCategories();
+export default async function HomePage() {
+  const categories = await getAllCategories();
 
   const productCounts: Record<string, number> = {};
   for (const cat of categories) {
-    const products = getProductsByCategory(cat.slug);
+    const products = await getProductsByCategory(cat.slug);
     productCounts[cat.slug] = products.length;
   }
 

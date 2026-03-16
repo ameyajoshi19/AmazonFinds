@@ -233,6 +233,7 @@ export default function ProductDetail({ product, category }: ProductDetailProps)
             {/* CTA */}
             <AffiliateLink
               href={product.affiliateUrl}
+              productId={product.id}
               className="w-full justify-center text-base py-3.5"
             >
               <ExternalLink className="w-4 h-4" />

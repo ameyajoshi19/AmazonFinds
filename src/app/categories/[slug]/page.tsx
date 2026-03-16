@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getAllCategories, getCategoryData } from "@/data/loader";
 import CategoryHero from "@/components/category/CategoryHero";
 import ProductGrid from "@/components/product/ProductGrid";
+import PageViewTracker from "@/components/analytics/PageViewTracker";
 
 export const revalidate = 3600;
 
@@ -11,13 +12,13 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  const categories = getAllCategories();
+  const categories = await getAllCategories();
   return categories.map((c) => ({ slug: c.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const data = getCategoryData(slug);
+  const data = await getCategoryData(slug);
   if (!data) return {};
 
   return {
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CategoryPage({ params }: PageProps) {
   const { slug } = await params;
-  const data = getCategoryData(slug);
+  const data = await getCategoryData(slug);
 
   if (!data || data.category.scaffolded) {
     notFound();
@@ -40,6 +41,7 @@ export default async function CategoryPage({ params }: PageProps) {
 
   return (
     <div className="pt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+      <PageViewTracker entityType="category" entityId={slug} />
       <CategoryHero
         category={data.category}
         productCount={data.products.length}

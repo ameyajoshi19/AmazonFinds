@@ -113,7 +113,7 @@ export default function ProductCard({ product, rank }: ProductCardProps) {
                 </span>
               )}
             </div>
-            <AffiliateLink href={product.affiliateUrl} className="flex-shrink-0 text-xs px-3 py-2">
+            <AffiliateLink href={product.affiliateUrl} productId={product.id} className="flex-shrink-0 text-xs px-3 py-2">
               <ExternalLink className="w-3.5 h-3.5" />
               View on Amazon
             </AffiliateLink>

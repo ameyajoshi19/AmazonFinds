@@ -1,73 +1,115 @@
-import fs from "fs";
-import path from "path";
+import { db } from "@/lib/db";
+import { categories as categoriesTable, products as productsTable } from "@/lib/schema";
+import { eq, asc } from "drizzle-orm";
 import type { Product, Category, CategoryData, SearchableProduct } from "@/types";
 
-const dataDir = path.join(process.cwd(), "src", "data");
+// ── Type mappers ──────────────────────────────────────────────────────────────
+// Drizzle returns `numeric` columns as strings; cast them back to numbers here.
 
-export function getAllCategories(): Category[] {
-  try {
-    const filePath = path.join(dataDir, "categories.json");
-    const raw = fs.readFileSync(filePath, "utf-8");
-    const categories: Category[] = JSON.parse(raw);
-    return categories.filter((c) => !c.scaffolded);
-  } catch {
-    return [];
-  }
+function mapCategory(row: typeof categoriesTable.$inferSelect): Category {
+  return {
+    slug: row.slug,
+    name: row.name,
+    description: row.description ?? "",
+    icon: row.icon ?? "",
+    accentColor: row.accentColor ?? "",
+    coverImageUrl: row.coverImageUrl ?? undefined,
+    scaffolded: row.scaffolded,
+  };
 }
 
-export function getAllCategoriesIncludingScaffolded(): Category[] {
-  try {
-    const filePath = path.join(dataDir, "categories.json");
-    const raw = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(raw);
-  } catch {
-    return [];
-  }
+function mapProduct(row: typeof productsTable.$inferSelect): Product {
+  return {
+    id: row.id,
+    categorySlug: row.categorySlug,
+    rank: row.rank,
+    featured: row.featured ?? false,
+    name: row.name,
+    description: row.description ?? "",
+    whyTopFind: row.whyTopFind ?? "",
+    price: Number(row.price),
+    originalPrice: row.originalPrice != null ? Number(row.originalPrice) : undefined,
+    rating: row.rating != null ? Number(row.rating) : 0,
+    reviewCount: row.reviewCount ?? undefined,
+    imageUrl: row.imageUrl ?? "",
+    affiliateUrl: row.affiliateUrl,
+    youtubeVideoId: row.youtubeVideoId ?? undefined,
+    tags: row.tags ?? [],
+    asin: row.asin ?? undefined,
+  };
 }
 
-export function getCategoryBySlug(slug: string): Category | null {
-  const categories = getAllCategoriesIncludingScaffolded();
-  return categories.find((c) => c.slug === slug) ?? null;
+// ── Public API ────────────────────────────────────────────────────────────────
+
+export async function getAllCategories(): Promise<Category[]> {
+  const rows = await db
+    .select()
+    .from(categoriesTable)
+    .where(eq(categoriesTable.scaffolded, false));
+  return rows.map(mapCategory);
 }
 
-export function getProductsByCategory(slug: string): Product[] {
-  try {
-    const filePath = path.join(dataDir, `${slug}.json`);
-    const raw = fs.readFileSync(filePath, "utf-8");
-    const data = JSON.parse(raw);
-    const products: Product[] = data.products ?? [];
-    return products.sort((a, b) => a.rank - b.rank);
-  } catch {
-    return [];
-  }
+export async function getAllCategoriesIncludingScaffolded(): Promise<Category[]> {
+  const rows = await db.select().from(categoriesTable);
+  return rows.map(mapCategory);
 }
 
-export function getProductById(id: string): Product | null {
-  const categories = getAllCategories();
-  for (const category of categories) {
-    const products = getProductsByCategory(category.slug);
-    const product = products.find((p) => p.id === id);
-    if (product) return product;
-  }
-  return null;
+export async function getCategoryBySlug(slug: string): Promise<Category | null> {
+  const rows = await db
+    .select()
+    .from(categoriesTable)
+    .where(eq(categoriesTable.slug, slug));
+  return rows[0] ? mapCategory(rows[0]) : null;
 }
 
-export function getAllProducts(): Product[] {
-  const categories = getAllCategories();
-  return categories.flatMap((c) => getProductsByCategory(c.slug));
+export async function getProductsByCategory(slug: string): Promise<Product[]> {
+  const rows = await db
+    .select()
+    .from(productsTable)
+    .where(eq(productsTable.categorySlug, slug))
+    .orderBy(asc(productsTable.rank));
+  return rows.map(mapProduct);
 }
 
-export function getAllSearchableProducts(): SearchableProduct[] {
-  const categories = getAllCategories();
-  return categories.flatMap((c) => {
-    const products = getProductsByCategory(c.slug);
-    return products.map((p) => ({ ...p, categoryName: c.name }));
-  });
+export async function getProductById(id: string): Promise<Product | null> {
+  const rows = await db
+    .select()
+    .from(productsTable)
+    .where(eq(productsTable.id, id));
+  return rows[0] ? mapProduct(rows[0]) : null;
 }
 
-export function getCategoryData(slug: string): CategoryData | null {
-  const category = getCategoryBySlug(slug);
+export async function getAllProducts(): Promise<Product[]> {
+  const rows = await db
+    .select()
+    .from(productsTable)
+    .orderBy(asc(productsTable.rank));
+  return rows.map(mapProduct);
+}
+
+export async function getAllSearchableProducts(): Promise<SearchableProduct[]> {
+  const rows = await db
+    .select({
+      product: productsTable,
+      categoryName: categoriesTable.name,
+    })
+    .from(productsTable)
+    .innerJoin(
+      categoriesTable,
+      eq(productsTable.categorySlug, categoriesTable.slug)
+    )
+    .where(eq(categoriesTable.scaffolded, false))
+    .orderBy(asc(productsTable.rank));
+
+  return rows.map(({ product, categoryName }) => ({
+    ...mapProduct(product),
+    categoryName,
+  }));
+}
+
+export async function getCategoryData(slug: string): Promise<CategoryData | null> {
+  const category = await getCategoryBySlug(slug);
   if (!category) return null;
-  const products = getProductsByCategory(slug);
-  return { category, products };
+  const prods = await getProductsByCategory(slug);
+  return { category, products: prods };
 }

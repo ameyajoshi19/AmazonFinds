@@ -7,10 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "refresh-products": "npx ts-node --project tsconfig.scripts.json scripts/refresh-products.ts"
+    "refresh-products": "npx ts-node --project tsconfig.scripts.json scripts/refresh-products.ts",
+    "migrate-db": "npx ts-node --project tsconfig.scripts.json scripts/migrate-json-to-db.ts",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
     "clsx": "^2.1.1",
+    "drizzle-orm": "^0.45.1",
     "framer-motion": "^12.36.0",
     "fuse.js": "^7.1.0",
     "lucide-react": "^0.577.0",
@@ -24,6 +31,7 @@
     "@types/node": "^20.19.37",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.9",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "google-trends-api": "^4.9.2",

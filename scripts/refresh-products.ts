@@ -1,15 +1,13 @@
 /**
  * Product data refresh script.
  *
- * For each product in every category JSON file, searches Amazon PA API
- * by product name to find the real ASIN. Updates:
+ * For each product in the database, searches Amazon PA API by product name
+ * to find the real ASIN. Updates:
  *   - affiliateUrl  → direct /dp/ASIN link (replaces search-page URL)
  *   - price         → live price from Amazon
- *   - imageUrl      → high-quality image from Amazon (optional)
- *
- * All other fields (name, description, whyTopFind, rating, etc.) are
- * preserved exactly as they are — this script only patches the data
- * that changes frequently or was never accurate.
+ *   - imageUrl      → high-quality image from Amazon (for placeholder/Unsplash images)
+ *   - asin          → the Amazon product identifier
+ *   - lastRefreshedAt → timestamp of the last successful refresh
  *
  * Run manually:
  *   npx ts-node --project tsconfig.scripts.json scripts/refresh-products.ts
@@ -18,71 +16,48 @@
  *   npx ts-node --project tsconfig.scripts.json scripts/refresh-products.ts bedroom
  *
  * Requires env vars:
+ *   DATABASE_URL
  *   AMAZON_ACCESS_KEY_ID
  *   AMAZON_SECRET_ACCESS_KEY
  *   NEXT_PUBLIC_AFFILIATE_TAG  (optional, defaults to "amazonfinds-20")
  */
 
-import fs from "fs";
-import path from "path";
-import type { Product } from "../src/types";
+import { db } from "../src/lib/db";
+import { categories, products } from "../src/lib/schema";
+import { eq, asc } from "drizzle-orm";
 import {
   searchAmazonProducts,
   CATEGORY_SEARCH_INDEX,
 } from "../src/lib/amazon-pa-api";
 
-const DATA_DIR = path.join(process.cwd(), "src", "data");
-const CATEGORIES_FILE = path.join(DATA_DIR, "categories.json");
-
-// PA API rate limit: 1 request per second
 const RATE_LIMIT_MS = 1100;
 
 function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-interface CategoryEntry {
-  slug: string;
-  name: string;
-  scaffolded?: boolean;
-}
+async function refreshCategory(
+  categorySlug: string,
+  categoryName: string
+): Promise<void> {
+  const searchIndex = CATEGORY_SEARCH_INDEX[categorySlug] ?? "All";
+  const productRows = await db
+    .select()
+    .from(products)
+    .where(eq(products.categorySlug, categorySlug))
+    .orderBy(asc(products.rank));
 
-function loadCategories(): CategoryEntry[] {
-  const raw = fs.readFileSync(CATEGORIES_FILE, "utf-8");
-  const all: CategoryEntry[] = JSON.parse(raw);
-  return all.filter((c) => !c.scaffolded);
-}
-
-function loadProducts(slug: string): Product[] {
-  const filePath = path.join(DATA_DIR, `${slug}.json`);
-  if (!fs.existsSync(filePath)) return [];
-  const raw = fs.readFileSync(filePath, "utf-8");
-  const data = JSON.parse(raw);
-  return data.products ?? [];
-}
-
-function saveProducts(slug: string, products: Product[]): void {
-  const filePath = path.join(DATA_DIR, `${slug}.json`);
-  const existing = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  existing.products = products;
-  fs.writeFileSync(filePath, JSON.stringify(existing, null, 2), "utf-8");
-}
-
-async function refreshCategory(slug: string, categoryName: string): Promise<void> {
-  const searchIndex = CATEGORY_SEARCH_INDEX[slug] ?? "All";
-  const products = loadProducts(slug);
-
-  if (products.length === 0) {
-    console.log(`  Skipping ${slug} — no products`);
+  if (productRows.length === 0) {
+    console.log(`  Skipping ${categorySlug} — no products`);
     return;
   }
 
   let updated = 0;
   let failed = 0;
 
-  for (let i = 0; i < products.length; i++) {
-    const product = products[i];
-    const label = `[${i + 1}/${products.length}] "${product.name.substring(0, 50)}"`;
+  for (let i = 0; i < productRows.length; i++) {
+    const product = productRows[i];
+    const label = `[${i + 1}/${productRows.length}] "${product.name.substring(0, 50)}"`;
 
     try {
       const results = await searchAmazonProducts(product.name, searchIndex, 1);
@@ -92,24 +67,28 @@ async function refreshCategory(slug: string, categoryName: string): Promise<void
         failed++;
       } else {
         const match = results[0];
-
-        const oldUrl = product.affiliateUrl;
-        const isSearchUrl = oldUrl.includes("/s?k=") || !oldUrl.includes("/dp/");
-
-        product.affiliateUrl = match.affiliateUrl;
-
-        if (match.price !== null) {
-          product.price = match.price;
-        }
-
-        // Only update imageUrl if current one is a placeholder or Unsplash (Amazon
-        // images are more accurate product shots)
+        const isSearchUrl =
+          product.affiliateUrl.includes("/s?k=") ||
+          !product.affiliateUrl.includes("/dp/");
         const isPlaceholderImage =
+          !product.imageUrl ||
           product.imageUrl.includes("placehold.co") ||
           product.imageUrl.includes("unsplash.com");
-        if (match.imageUrl && isPlaceholderImage) {
-          product.imageUrl = match.imageUrl;
-        }
+
+        await db
+          .update(products)
+          .set({
+            affiliateUrl: match.affiliateUrl,
+            price: match.price !== null ? String(match.price) : product.price,
+            imageUrl:
+              match.imageUrl && isPlaceholderImage
+                ? match.imageUrl
+                : product.imageUrl,
+            asin: match.asin || product.asin,
+            lastRefreshedAt: new Date(),
+            updatedAt: new Date(),
+          })
+          .where(eq(products.id, product.id));
 
         console.log(
           `  ${label} → ASIN ${match.asin}` +
@@ -120,23 +99,18 @@ async function refreshCategory(slug: string, categoryName: string): Promise<void
       }
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
-      // If credentials are missing, abort immediately — no point continuing
-      if (msg.includes("Missing AMAZON_ACCESS_KEY_ID")) {
-        throw err;
-      }
+      if (msg.includes("Missing AMAZON_ACCESS_KEY_ID")) throw err;
       console.warn(`  ${label} → API error: ${msg}`);
       failed++;
     }
 
-    // Respect PA API rate limit between requests
-    if (i < products.length - 1) {
+    if (i < productRows.length - 1) {
       await sleep(RATE_LIMIT_MS);
     }
   }
 
-  saveProducts(slug, products);
   console.log(
-    `  ${categoryName}: ${updated} updated, ${failed} failed / ${products.length} total`
+    `  ${categoryName}: ${updated} updated, ${failed} failed / ${productRows.length} total`
   );
 }
 
@@ -146,38 +120,37 @@ async function main(): Promise<void> {
   console.log(`Started: ${new Date().toISOString()}`);
   console.log("=".repeat(60));
 
-  // Allow running a single category: `ts-node refresh-products.ts bedroom`
   const targetSlug = process.argv[2];
 
-  const categories = loadCategories();
+  const allCategories = await db
+    .select({ slug: categories.slug, name: categories.name })
+    .from(categories)
+    .where(eq(categories.scaffolded, false));
+
   const toRefresh = targetSlug
-    ? categories.filter((c) => c.slug === targetSlug)
-    : categories;
+    ? allCategories.filter((c) => c.slug === targetSlug)
+    : allCategories;
 
   if (toRefresh.length === 0) {
-    if (targetSlug) {
-      console.error(`Category "${targetSlug}" not found.`);
-    } else {
-      console.log("No categories to refresh.");
-    }
+    console.error(
+      targetSlug ? `Category "${targetSlug}" not found.` : "No categories."
+    );
     process.exit(1);
   }
 
-  const estimated = toRefresh.reduce((sum, c) => sum + loadProducts(c.slug).length, 0);
+  const productCount = await db.$count(
+    products,
+    targetSlug ? eq(products.categorySlug, targetSlug) : undefined
+  );
   console.log(
     `\nRefreshing ${toRefresh.length} categor${toRefresh.length === 1 ? "y" : "ies"} ` +
-      `(~${estimated} products, ~${Math.ceil((estimated * RATE_LIMIT_MS) / 60000)} min)\n`
+      `(~${productCount} products, ~${Math.ceil((productCount * RATE_LIMIT_MS) / 60000)} min)\n`
   );
-
-  let totalUpdated = 0;
-  let totalFailed = 0;
 
   for (const category of toRefresh) {
     console.log(`\n▸ ${category.name} (${category.slug})`);
     try {
-      const before = loadProducts(category.slug).length;
       await refreshCategory(category.slug, category.name);
-      totalUpdated += before;
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
       if (msg.includes("Missing AMAZON_ACCESS_KEY_ID")) {
@@ -185,23 +158,20 @@ async function main(): Promise<void> {
         console.error(
           "\nTo get PA API credentials:\n" +
             "  1. Log in to Amazon Associates (affiliate-program.amazon.com)\n" +
-            "  2. Go to Tools → Product Advertising API\n" +
-            "  3. Create access keys\n" +
-            "  4. Add to .env.local:\n" +
+            "  2. Go to Tools → Product Advertising API → Create access keys\n" +
+            "  3. Add to .env.local:\n" +
             "       AMAZON_ACCESS_KEY_ID=your_key\n" +
             "       AMAZON_SECRET_ACCESS_KEY=your_secret\n" +
-            "  5. Add the same vars to GitHub Secrets for CI"
+            "  4. Add the same vars to GitHub Secrets for CI"
         );
         process.exit(1);
       }
       console.error(`  Error refreshing ${category.slug}: ${msg}`);
-      totalFailed++;
     }
   }
 
   console.log("\n" + "=".repeat(60));
-  console.log(`Done. ${toRefresh.length - totalFailed} categories refreshed.`);
-  console.log(`Finished: ${new Date().toISOString()}`);
+  console.log(`Done. Finished: ${new Date().toISOString()}`);
   console.log("=".repeat(60));
 }
 

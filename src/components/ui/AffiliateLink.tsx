@@ -1,8 +1,11 @@
+"use client";
+
 import { buildAffiliateUrl } from "@/lib/affiliate";
 import { cn } from "@/lib/utils";
 
 interface AffiliateLinkProps {
   href: string;
+  productId?: string;
   children: React.ReactNode;
   className?: string;
   variant?: "button" | "text" | "subtle";
@@ -10,15 +13,27 @@ interface AffiliateLinkProps {
 
 export default function AffiliateLink({
   href,
+  productId,
   children,
   className,
   variant = "button",
 }: AffiliateLinkProps) {
   const url = buildAffiliateUrl(href);
 
+  const handleClick = () => {
+    if (!productId) return;
+    fetch("/api/analytics/click", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ productId }),
+      keepalive: true,
+    }).catch(() => {});
+  };
+
   return (
     <a
       href={url}
+      onClick={handleClick}
       target="_blank"
       rel="sponsored noopener noreferrer"
       className={cn(
@@ -27,8 +42,7 @@ export default function AffiliateLink({
           "bg-amber-500 hover:bg-amber-400 text-gray-950 px-4 py-2.5 rounded-xl text-sm",
         variant === "text" &&
           "text-amber-400 hover:text-amber-300 text-sm underline underline-offset-2",
-        variant === "subtle" &&
-          "text-gray-400 hover:text-white text-sm",
+        variant === "subtle" && "text-gray-400 hover:text-white text-sm",
         className
       )}
     >

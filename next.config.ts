@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Required for Fly.io Docker deployment
+  output: "standalone",
   images: {
     dangerouslyAllowSVG: true,
     contentDispositionType: "attachment",
