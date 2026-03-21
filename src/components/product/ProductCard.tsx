@@ -69,7 +69,9 @@ export default function ProductCard({ product, rank }: ProductCardProps) {
                 <Badge
                   key={tag}
                   variant={
-                    tag === "prime"
+                    tag === "trending"
+                      ? "trending"
+                      : tag === "prime"
                       ? "prime"
                       : tag.includes("sale") || tag.includes("deal")
                       ? "sale"

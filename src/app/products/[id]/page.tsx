@@ -5,6 +5,7 @@ import {
   getProductById,
   getCategoryBySlug,
   getProductsByCategory,
+  getProductViewCount,
 } from "@/data/loader";
 import ProductDetail from "@/components/product/ProductDetail";
 import PageViewTracker from "@/components/analytics/PageViewTracker";
@@ -52,7 +53,10 @@ export default async function ProductPage({ params }: PageProps) {
 
   if (!product) notFound();
 
-  const category = await getCategoryBySlug(product.categorySlug);
+  const [category, viewCount] = await Promise.all([
+    getCategoryBySlug(product.categorySlug),
+    getProductViewCount(id),
+  ]);
   if (!category) notFound();
 
   return (
@@ -66,7 +70,7 @@ export default async function ProductPage({ params }: PageProps) {
         ])}
       />
       <JsonLd data={productSchema(product)} />
-      <ProductDetail product={product} category={category} />
+      <ProductDetail product={product} category={category} viewCount={viewCount} />
     </div>
   );
 }

@@ -1,6 +1,11 @@
 import { db } from "@/lib/db";
-import { categories as categoriesTable, products as productsTable } from "@/lib/schema";
-import { eq, asc, sql } from "drizzle-orm";
+import {
+  categories as categoriesTable,
+  products as productsTable,
+  affiliateClicks as affiliateClicksTable,
+  pageViews as pageViewsTable,
+} from "@/lib/schema";
+import { eq, asc, sql, desc, gte, and } from "drizzle-orm";
 import type { Product, Category, CategoryData, SearchableProduct } from "@/types";
 
 // ── Type mappers ──────────────────────────────────────────────────────────────
@@ -125,4 +130,73 @@ export async function getCategoryData(slug: string): Promise<CategoryData | null
   if (!category) return null;
   const prods = await getProductsByCategory(slug);
   return { category, products: prods };
+}
+
+const TRENDING_MIN_CLICKS = 3;
+
+/**
+ * Returns the most-clicked products over the last 7 days.
+ * Falls back to top-ranked products if fewer than `limit`
+ * products have sufficient click data.
+ */
+export async function getTrendingProducts(limit = 8): Promise<Product[]> {
+  const sevenDaysAgo = new Date();
+  sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+
+  // Find products with the most affiliate clicks in the last 7 days
+  const trendingRows = await db
+    .select({
+      product: productsTable,
+      clickCount: sql<number>`count(*)::int`.as("click_count"),
+    })
+    .from(affiliateClicksTable)
+    .innerJoin(productsTable, eq(affiliateClicksTable.productId, productsTable.id))
+    .innerJoin(categoriesTable, eq(productsTable.categorySlug, categoriesTable.slug))
+    .where(gte(affiliateClicksTable.clickedAt, sevenDaysAgo))
+    .groupBy(productsTable.id)
+    .having(gte(sql<number>`count(*)::int`, TRENDING_MIN_CLICKS))
+    .orderBy(desc(sql`count(*)`))
+    .limit(limit);
+
+  const trending = trendingRows.map((r) => mapProduct(r.product));
+
+  // Fall back to top-ranked products if not enough trending data
+  if (trending.length < limit) {
+    const existingIds = new Set(trending.map((p) => p.id));
+    const fillCount = limit - trending.length;
+
+    const fallbackRows = await db
+      .select()
+      .from(productsTable)
+      .innerJoin(categoriesTable, eq(productsTable.categorySlug, categoriesTable.slug))
+      .where(eq(categoriesTable.scaffolded, false))
+      .orderBy(asc(productsTable.rank))
+      .limit(fillCount + existingIds.size);
+
+    for (const row of fallbackRows) {
+      if (trending.length >= limit) break;
+      if (!existingIds.has(row.products.id)) {
+        trending.push(mapProduct(row.products));
+        existingIds.add(row.products.id);
+      }
+    }
+  }
+
+  return trending;
+}
+
+/**
+ * Returns the total number of page views for a given product.
+ */
+export async function getProductViewCount(productId: string): Promise<number> {
+  const rows = await db
+    .select({ count: sql<number>`count(*)::int` })
+    .from(pageViewsTable)
+    .where(
+      and(
+        eq(pageViewsTable.entityType, "product"),
+        eq(pageViewsTable.entityId, productId)
+      )
+    );
+  return rows[0]?.count ?? 0;
 }

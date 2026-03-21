@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ExternalLink, Play, ArrowLeft, Star, Tag } from "lucide-react";
+import { ExternalLink, Play, ArrowLeft, Star, Tag, Eye } from "lucide-react";
 import StarRating from "./StarRating";
 import VideoModal from "./VideoModal";
 import Badge from "@/components/ui/Badge";
@@ -14,9 +14,10 @@ import type { Product, Category } from "@/types";
 interface ProductDetailProps {
   product: Product;
   category: Category;
+  viewCount?: number;
 }
 
-export default function ProductDetail({ product, category }: ProductDetailProps) {
+export default function ProductDetail({ product, category, viewCount }: ProductDetailProps) {
   const [videoOpen, setVideoOpen] = useState(false);
   const [imgError, setImgError] = useState(false);
 
@@ -169,6 +170,13 @@ export default function ProductDetail({ product, category }: ProductDetailProps)
               reviewCount={product.reviewCount}
               size="md"
             />
+
+            {viewCount != null && viewCount >= 10 && (
+              <div className="flex items-center gap-1.5 text-xs text-gray-500">
+                <Eye className="w-3.5 h-3.5" />
+                <span>{viewCount.toLocaleString()} people viewed this</span>
+              </div>
+            )}
 
             {/* Price */}
             <div className="flex items-baseline gap-3">
